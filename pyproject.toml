@@ -1,0 +1,17 @@
+[project]
+name = "smartingest"
+version = "0.1.0"
+description = "Ingestion pipeline that infers schemas, quarantines bad rows and suggests fixes with Claude."
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 135
+target-version = "py311"
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

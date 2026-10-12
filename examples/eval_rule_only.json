@@ -1,0 +1,119 @@
+{
+  "mode": "rule-only",
+  "rows": 2020,
+  "injected_errors": 1113,
+  "reported_issues": 1113,
+  "detection_recall": 1.0,
+  "detection_precision": 1.0,
+  "suggestion_coverage": 0.8428,
+  "fix_accuracy": 0.9915,
+  "auto_fixed": 769,
+  "auto_fix_error_rate": 0.0,
+  "rows_quarantined": 324,
+  "quality_score": 83.96,
+  "llm_calls": 0,
+  "llm_input_tokens": 0,
+  "llm_output_tokens": 0,
+  "per_error_type": {
+    "boolean_variant": {
+      "injected": 165,
+      "detected": 165,
+      "suggested": 165,
+      "correct": 165
+    },
+    "currency_rp_dots": {
+      "injected": 81,
+      "detected": 81,
+      "suggested": 81,
+      "correct": 81
+    },
+    "currency_rp_plain": {
+      "injected": 86,
+      "detected": 86,
+      "suggested": 86,
+      "correct": 86
+    },
+    "date_dmy": {
+      "injected": 58,
+      "detected": 58,
+      "suggested": 58,
+      "correct": 58
+    },
+    "date_dmy_dash": {
+      "injected": 61,
+      "detected": 61,
+      "suggested": 61,
+      "correct": 61
+    },
+    "date_impossible": {
+      "injected": 47,
+      "detected": 47
+    },
+    "duplicate_row": {
+      "injected": 20,
+      "detected": 20,
+      "suggested": 20,
+      "correct": 20
+    },
+    "email_case_whitespace": {
+      "injected": 30,
+      "detected": 30,
+      "suggested": 30,
+      "correct": 30
+    },
+    "email_domain_typo": {
+      "injected": 37,
+      "detected": 37,
+      "suggested": 37,
+      "correct": 37
+    },
+    "email_missing_at": {
+      "injected": 28,
+      "detected": 28,
+      "suggested": 28,
+      "correct": 28
+    },
+    "email_missing_domain": {
+      "injected": 27,
+      "detected": 27,
+      "suggested": 27,
+      "correct": 19
+    },
+    "missing_required": {
+      "injected": 32,
+      "detected": 32
+    },
+    "number_in_words": {
+      "injected": 49,
+      "detected": 49
+    },
+    "phone_dashes": {
+      "injected": 41,
+      "detected": 41,
+      "suggested": 41,
+      "correct": 41
+    },
+    "phone_local_format": {
+      "injected": 38,
+      "detected": 38,
+      "suggested": 38,
+      "correct": 38
+    },
+    "phone_missing_zero": {
+      "injected": 65,
+      "detected": 65,
+      "suggested": 65,
+      "correct": 65
+    },
+    "phone_too_short": {
+      "injected": 47,
+      "detected": 47
+    },
+    "text_whitespace": {
+      "injected": 201,
+      "detected": 201,
+      "suggested": 201,
+      "correct": 201
+    }
+  }
+}

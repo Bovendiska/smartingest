@@ -1,0 +1,73 @@
+# Production-style stack. Only Caddy is reachable from the internet (ports 80/443).
+# Postgres and the API have no published ports. Raw files (bronze) live on a Docker volume;
+# set BRONZE_BACKEND=s3 to use any S3-compatible service instead.
+services:
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    environment:
+      DOMAIN: ${DOMAIN:?set DOMAIN in .env (use :80 to test on a laptop)}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [api]
+    networks: [edge]
+
+  api:
+    build: .
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql://smartingest_app:${APP_DB_PASSWORD:?set in .env}@postgres:5432/${POSTGRES_DB:-smartingest}
+      BRONZE_BACKEND: ${BRONZE_BACKEND:-local}
+      BRONZE_LOCAL_PATH: /data/bronze
+      S3_ENDPOINT: ${S3_ENDPOINT:-}
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-}
+      ADMIN_API_KEY: ${ADMIN_API_KEY:?set in .env}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      SMARTINGEST_FAST_MODEL: ${SMARTINGEST_FAST_MODEL:-claude-haiku-4-5-20251001}
+      SMARTINGEST_SMART_MODEL: ${SMARTINGEST_SMART_MODEL:-claude-sonnet-5-5}
+      DEMO_MODE: ${DEMO_MODE:-true}
+      DEMO_LLM_ENABLED: ${DEMO_LLM_ENABLED:-true}
+      LLM_DAILY_CALL_LIMIT: ${LLM_DAILY_CALL_LIMIT:-300}
+    expose: ["8000"]
+    volumes: [bronze:/data/bronze]
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    mem_limit: 1g
+    depends_on:
+      postgres: {condition: service_healthy}
+    networks: [edge, internal]
+
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-smartingest_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-smartingest}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:?set in .env}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/01_init.sql:ro
+      - ./sql/02_app_role.sh:/docker-entrypoint-initdb.d/02_app_role.sh:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-smartingest_admin} -d ${POSTGRES_DB:-smartingest}"]
+      interval: 5s
+      retries: 10
+    networks: [internal]
+
+networks:
+  edge:
+  internal:
+    internal: true   # no route to the internet from here
+
+volumes:
+  pgdata:
+  bronze:
+  caddy_data:
+  caddy_config:

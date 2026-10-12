@@ -1,0 +1,1114 @@
+row_index,column,error_type,clean_value,dirty_value
+1,Member,boolean_variant,true,YES
+1,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+5,Tgl Lahir,date_impossible,1990-11-25,1990-02-30
+7,Nama,text_whitespace,Arif Saputra,  Arif   Saputra 
+9,Member,boolean_variant,false,n
+12,Nama,text_whitespace,Sari Saputra,  Sari   Saputra 
+15,Nama,text_whitespace,Reindra Simanjuntak,  Reindra   Simanjuntak 
+15,Total Belanja,currency_rp_dots,17428000,Rp 17.428.000
+16,Tgl Lahir,date_impossible,2004-06-01,2004-02-30
+19,Nama,text_whitespace,Lestari Simanjuntak,  Lestari   Simanjuntak 
+19,Tgl Lahir,date_dmy,1984-08-26,26/08/1984
+21,Nama,text_whitespace,Siti Hutapea,  Siti   Hutapea 
+23,Total Belanja,currency_rp_plain,3274000,Rp3274000
+25,Total Belanja,currency_rp_dots,18083000,Rp 18.083.000
+26,Tgl Lahir,date_dmy_dash,1972-06-17,17-06-1972
+26,Total Belanja,currency_rp_dots,15823000,Rp 15.823.000
+28,Tgl Lahir,date_dmy_dash,1978-04-24,24-04-1978
+29,Member,boolean_variant,true,Ya
+31,Member,boolean_variant,false,Tidak
+32,Tgl Lahir,date_dmy_dash,1982-10-03,03-10-1982
+34,Member,boolean_variant,true,y
+34,No HP,phone_missing_zero,+6288888775215,88888775215
+36,Total Belanja,currency_rp_plain,11285000,Rp11285000
+38,Nama,text_whitespace,Rina Putra,  Rina   Putra 
+42,Nama,text_whitespace,Rina Lestari,  Rina   Lestari 
+43,Mail,email_domain_typo,putri.nugroho43@gmail.com,putri.nugroho43@gmai.com
+46,Member,boolean_variant,false,n
+47,Member,boolean_variant,false,n
+50,Nama,text_whitespace,Rizki Putra,  Rizki   Putra 
+54,Tgl Lahir,date_dmy,1985-11-03,03/11/1985
+58,Mail,missing_required,reindra.nugroho58@gmail.com,
+59,No HP,phone_too_short,+628993621534,089936
+61,No HP,phone_dashes,+6285390774697,0853-9077-4697
+62,Nama,text_whitespace,Rizki Pratama,  Rizki   Pratama 
+63,Mail,email_domain_typo,teguh.rahmawati63@gmail.com,teguh.rahmawati63@gmial.com
+65,Member,boolean_variant,true,Ya
+66,Mail,email_missing_at,putri.hidayat66@gmail.com,putri.hidayat66.gmail.com
+66,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+67,Nama,text_whitespace,Rizki Wibowo,  Rizki   Wibowo 
+68,No HP,phone_dashes,+6283511200074,0835-1120-0074
+69,Total Belanja,currency_rp_dots,4016000,Rp 4.016.000
+70,Tgl Lahir,date_impossible,1968-02-04,1968-02-30
+71,Tgl Lahir,date_dmy_dash,1996-09-23,23-09-1996
+75,Member,boolean_variant,false,n
+75,No HP,phone_local_format,+6288133255732,088133255732
+76,Member,boolean_variant,false,Tidak
+76,Total Belanja,currency_rp_dots,13301000,Rp 13.301.000
+79,No HP,phone_local_format,+6284614492385,084614492385
+81,Total Belanja,currency_rp_plain,16135000,Rp16135000
+82,Nama,text_whitespace,Wulan Putra,  Wulan   Putra 
+84,Mail,email_case_whitespace,putri.lestari84@hotmail.com,  Putri.Lestari84@HOTMAIL.COM 
+86,No HP,phone_too_short,+6284024328859,084024
+90,Nama,text_whitespace,Nur Siregar,  Nur   Siregar 
+90,Tgl Lahir,date_dmy_dash,1984-09-13,13-09-1984
+91,Member,boolean_variant,true,YES
+91,Tgl Lahir,date_dmy_dash,1991-10-30,30-10-1991
+92,Member,boolean_variant,false,n
+97,Nama,text_whitespace,Nur Putra,  Nur   Putra 
+98,No HP,phone_dashes,+6282462934487,0824-6293-4487
+101,No HP,phone_too_short,+6289466718414,089466
+102,Nama,text_whitespace,Maya Halim,  Maya   Halim 
+102,Tgl Lahir,date_dmy_dash,1980-06-25,25-06-1980
+104,Member,boolean_variant,false,n
+105,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+108,Nama,text_whitespace,Fitri Saputra,  Fitri   Saputra 
+108,Total Belanja,currency_rp_plain,3343000,Rp3343000
+111,Mail,missing_required,putri.putra111@gmail.com,
+112,No HP,phone_local_format,+6289834567615,089834567615
+115,Nama,text_whitespace,Nur Nugroho,  Nur   Nugroho 
+116,Member,boolean_variant,true,Ya
+116,Total Belanja,currency_rp_dots,1143000,Rp 1.143.000
+117,Mail,email_domain_typo,nur.hutapea117@gmail.com,nur.hutapea117@gmial.com
+118,Member,boolean_variant,true,Ya
+121,Total Belanja,number_in_words,500000,lima ratus ribu
+122,Total Belanja,currency_rp_dots,4630000,Rp 4.630.000
+123,No HP,phone_missing_zero,+6285790991136,85790991136
+124,Mail,missing_required,yoga.pratama124@yahoo.com,
+124,Member,boolean_variant,true,y
+124,Nama,text_whitespace,Yoga Pratama,  Yoga   Pratama 
+126,Mail,email_domain_typo,siti.setiawan126@yahoo.com,siti.setiawan126@yaho.com
+127,Mail,email_missing_domain,siti.hutapea127@gmail.com,siti.hutapea127@
+129,Nama,text_whitespace,Rina Lestari,  Rina   Lestari 
+131,No HP,phone_too_short,+6283883558242,083883
+133,Tgl Lahir,date_dmy,1979-06-14,14/06/1979
+133,Total Belanja,currency_rp_plain,2202000,Rp2202000
+135,Member,boolean_variant,false,n
+141,Nama,text_whitespace,Sari Wibowo,  Sari   Wibowo 
+141,No HP,phone_too_short,+628541819505,085418
+142,Nama,text_whitespace,Yoga Setiawan,  Yoga   Setiawan 
+143,Total Belanja,currency_rp_plain,10679000,Rp10679000
+146,Nama,text_whitespace,Hendra Siregar,  Hendra   Siregar 
+149,Nama,text_whitespace,Fitri Wijaya,  Fitri   Wijaya 
+149,Tgl Lahir,date_dmy,1984-07-27,27/07/1984
+149,Total Belanja,number_in_words,100000,seratus ribu
+150,Mail,email_missing_at,arif.rahmawati150@gmail.com,arif.rahmawati150.gmail.com
+155,Nama,text_whitespace,Lestari Hutapea,  Lestari   Hutapea 
+156,Nama,text_whitespace,Teguh Siregar,  Teguh   Siregar 
+157,Total Belanja,currency_rp_plain,9456000,Rp9456000
+161,Nama,text_whitespace,Ayu Siregar,  Ayu   Siregar 
+162,Total Belanja,currency_rp_dots,9360000,Rp 9.360.000
+165,No HP,phone_missing_zero,+6287226770506,87226770506
+168,Member,boolean_variant,true,YES
+169,No HP,phone_missing_zero,+6285792040800,85792040800
+171,Nama,text_whitespace,Fajar Wijaya,  Fajar   Wijaya 
+172,Member,boolean_variant,true,Ya
+173,No HP,phone_too_short,+6285732645597,085732
+174,Member,boolean_variant,false,Tidak
+178,Mail,email_domain_typo,teguh.gunawan178@gmail.com,teguh.gunawan178@gmai.com
+178,Nama,text_whitespace,Teguh Gunawan,  Teguh   Gunawan 
+178,Tgl Lahir,date_dmy,1990-10-18,18/10/1990
+179,Mail,missing_required,putri.rahmawati179@outlook.com,
+179,Tgl Lahir,date_impossible,1973-05-27,1973-02-30
+181,Tgl Lahir,date_dmy_dash,1999-08-11,11-08-1999
+182,Total Belanja,currency_rp_dots,15274000,Rp 15.274.000
+185,Mail,email_domain_typo,dewi.simanjuntak185@yahoo.com,dewi.simanjuntak185@yaho.com
+185,No HP,phone_too_short,+6285326074182,085326
+190,Member,boolean_variant,true,y
+191,Tgl Lahir,date_dmy_dash,1981-08-22,22-08-1981
+193,Nama,text_whitespace,Fajar Wibowo,  Fajar   Wibowo 
+194,Member,boolean_variant,false,NO
+194,Nama,text_whitespace,Rizki Kusuma,  Rizki   Kusuma 
+197,No HP,phone_local_format,+6286255953237,086255953237
+198,Tgl Lahir,date_dmy_dash,1993-10-25,25-10-1993
+201,Member,boolean_variant,true,Ya
+203,Member,boolean_variant,false,Tidak
+207,Tgl Lahir,date_dmy,1976-02-14,14/02/1976
+209,Mail,email_domain_typo,nur.halim209@outlook.com,nur.halim209@outlok.com
+209,Member,boolean_variant,false,NO
+209,Nama,text_whitespace,Nur Halim,  Nur   Halim 
+211,Total Belanja,currency_rp_plain,13263000,Rp13263000
+212,Total Belanja,currency_rp_dots,16573000,Rp 16.573.000
+217,Nama,text_whitespace,Fitri Santoso,  Fitri   Santoso 
+224,Nama,text_whitespace,Bayu Simanjuntak,  Bayu   Simanjuntak 
+225,Mail,email_domain_typo,rizki.wibowo225@outlook.com,rizki.wibowo225@outlok.com
+225,Tgl Lahir,date_impossible,1998-07-11,1998-02-30
+230,Mail,email_missing_domain,siti.santoso230@gmail.com,siti.santoso230@
+235,Member,boolean_variant,false,n
+236,Member,boolean_variant,true,y
+240,Tgl Lahir,date_dmy_dash,2003-05-01,01-05-2003
+243,Nama,text_whitespace,Ayu Saputra,  Ayu   Saputra 
+243,No HP,phone_local_format,+6281439532662,081439532662
+244,Member,boolean_variant,false,Tidak
+244,No HP,phone_missing_zero,+6285861201634,85861201634
+245,Tgl Lahir,date_dmy,1970-12-19,19/12/1970
+246,Mail,email_case_whitespace,fitri.nugroho246@gmail.com,  Fitri.Nugroho246@GMAIL.COM 
+246,Total Belanja,number_in_words,100000,seratus ribu
+252,Nama,text_whitespace,Teguh Rahmawati,  Teguh   Rahmawati 
+254,Nama,text_whitespace,Rizki Wijaya,  Rizki   Wijaya 
+254,No HP,phone_dashes,+6287718997624,0877-1899-7624
+255,Tgl Lahir,date_dmy,1979-10-26,26/10/1979
+264,Nama,text_whitespace,Bona Santoso,  Bona   Santoso 
+266,Mail,email_missing_domain,budi.santoso266@gmail.com,budi.santoso266@
+266,Total Belanja,currency_rp_plain,17605000,Rp17605000
+268,Nama,text_whitespace,Bayu Saputra,  Bayu   Saputra 
+269,No HP,phone_missing_zero,+6286151903955,86151903955
+271,Member,boolean_variant,false,n
+271,Nama,text_whitespace,Hendra Wijaya,  Hendra   Wijaya 
+271,Tgl Lahir,date_dmy,1975-04-23,23/04/1975
+272,Total Belanja,currency_rp_dots,10355000,Rp 10.355.000
+274,Member,boolean_variant,false,n
+278,Tgl Lahir,date_impossible,1979-03-17,1979-02-30
+279,No HP,phone_local_format,+6288169778646,088169778646
+279,Total Belanja,currency_rp_plain,14757000,Rp14757000
+281,Nama,text_whitespace,Intan Setiawan,  Intan   Setiawan 
+283,Tgl Lahir,date_dmy_dash,1986-09-21,21-09-1986
+284,No HP,phone_too_short,+6288951987966,088951
+290,Tgl Lahir,date_dmy_dash,1991-10-28,28-10-1991
+293,No HP,phone_missing_zero,+6289878206788,89878206788
+295,Member,boolean_variant,false,Tidak
+296,No HP,phone_missing_zero,+6286697904386,86697904386
+297,Member,boolean_variant,true,Ya
+298,Nama,text_whitespace,Fitri Nugroho,  Fitri   Nugroho 
+300,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+305,Member,boolean_variant,true,Ya
+307,Mail,email_case_whitespace,bayu.susanto307@yahoo.com,  Bayu.Susanto307@YAHOO.COM 
+308,Total Belanja,currency_rp_plain,7276000,Rp7276000
+309,Nama,text_whitespace,Rina Putra,  Rina   Putra 
+310,Nama,text_whitespace,Fajar Susanto,  Fajar   Susanto 
+312,Mail,email_case_whitespace,dewi.nugroho312@gmail.com,  Dewi.Nugroho312@GMAIL.COM 
+312,Member,boolean_variant,true,Ya
+313,Tgl Lahir,date_impossible,2000-03-16,2000-02-30
+315,Member,boolean_variant,true,Ya
+317,Total Belanja,currency_rp_dots,12143000,Rp 12.143.000
+323,No HP,phone_missing_zero,+6281918810664,81918810664
+324,Total Belanja,number_in_words,500000,lima ratus ribu
+325,Mail,email_missing_domain,agus.nugroho325@gmail.com,agus.nugroho325@
+326,Member,boolean_variant,true,Ya
+326,Nama,text_whitespace,Bayu Pratama,  Bayu   Pratama 
+327,Mail,email_missing_at,rizki.simanjuntak327@yahoo.com,rizki.simanjuntak327.yahoo.com
+330,No HP,phone_missing_zero,+6287682460345,87682460345
+332,Nama,text_whitespace,Teguh Saputra,  Teguh   Saputra 
+333,Nama,text_whitespace,Ayu Susanto,  Ayu   Susanto 
+334,Nama,text_whitespace,Fajar Hidayat,  Fajar   Hidayat 
+342,No HP,phone_too_short,+628751344739,087513
+342,Tgl Lahir,date_dmy_dash,1990-09-29,29-09-1990
+342,Total Belanja,currency_rp_plain,3829000,Rp3829000
+346,Member,boolean_variant,false,n
+347,Tgl Lahir,date_dmy_dash,1985-10-23,23-10-1985
+348,Mail,email_case_whitespace,intan.santoso348@gmail.com,  Intan.Santoso348@GMAIL.COM 
+351,Member,boolean_variant,false,n
+352,Nama,text_whitespace,Fajar Hutapea,  Fajar   Hutapea 
+355,Total Belanja,currency_rp_plain,19819000,Rp19819000
+356,Nama,text_whitespace,Arif Nugroho,  Arif   Nugroho 
+356,Tgl Lahir,date_dmy,1980-12-16,16/12/1980
+357,Total Belanja,currency_rp_dots,3153000,Rp 3.153.000
+358,Tgl Lahir,date_dmy_dash,1970-11-12,12-11-1970
+366,Tgl Lahir,date_dmy_dash,1972-02-29,29-02-1972
+367,Total Belanja,currency_rp_plain,5742000,Rp5742000
+369,Nama,text_whitespace,Maya Siregar,  Maya   Siregar 
+371,No HP,phone_dashes,+6287749974686,0877-4997-4686
+376,Tgl Lahir,date_dmy,1975-09-05,05/09/1975
+377,Member,boolean_variant,true,y
+380,No HP,phone_missing_zero,+6283151393104,83151393104
+382,Total Belanja,currency_rp_dots,6275000,Rp 6.275.000
+386,Nama,text_whitespace,Wulan Wibowo,  Wulan   Wibowo 
+386,Total Belanja,currency_rp_dots,12748000,Rp 12.748.000
+388,Nama,text_whitespace,Bona Lestari,  Bona   Lestari 
+390,No HP,phone_local_format,+6289684251648,089684251648
+391,Nama,text_whitespace,Bona Putra,  Bona   Putra 
+391,Total Belanja,currency_rp_plain,5527000,Rp5527000
+393,Member,boolean_variant,false,Tidak
+395,Total Belanja,currency_rp_dots,13514000,Rp 13.514.000
+396,Tgl Lahir,date_dmy_dash,1977-05-10,10-05-1977
+399,Total Belanja,currency_rp_dots,13392000,Rp 13.392.000
+400,Tgl Lahir,date_dmy_dash,1996-10-30,30-10-1996
+404,No HP,phone_local_format,+6283887889858,083887889858
+405,Total Belanja,number_in_words,100000,seratus ribu
+408,No HP,phone_dashes,+6289715509544,0897-1550-9544
+410,No HP,phone_too_short,+6286189654879,086189
+417,Mail,email_missing_domain,reindra.hidayat417@yahoo.com,reindra.hidayat417@
+421,Total Belanja,number_in_words,100000,seratus ribu
+422,Member,boolean_variant,false,Tidak
+423,Nama,text_whitespace,Rizki Gunawan,  Rizki   Gunawan 
+424,Nama,text_whitespace,Rina Setiawan,  Rina   Setiawan 
+429,Nama,text_whitespace,Nur Lestari,  Nur   Lestari 
+429,Tgl Lahir,date_dmy,2000-03-15,15/03/2000
+430,Member,boolean_variant,false,NO
+434,No HP,phone_dashes,+6282790034004,0827-9003-4004
+435,Tgl Lahir,date_dmy,1992-11-22,22/11/1992
+439,Tgl Lahir,date_dmy,1967-11-04,04/11/1967
+442,Total Belanja,currency_rp_dots,10556000,Rp 10.556.000
+443,Tgl Lahir,date_dmy,1983-02-03,03/02/1983
+444,Mail,email_missing_at,wulan.putra444@gmail.com,wulan.putra444.gmail.com
+445,Mail,email_domain_typo,maya.susanto445@hotmail.com,maya.susanto445@hotmial.com
+447,Nama,text_whitespace,Arif Simanjuntak,  Arif   Simanjuntak 
+447,Total Belanja,currency_rp_dots,3242000,Rp 3.242.000
+449,Total Belanja,currency_rp_plain,12924000,Rp12924000
+450,Nama,text_whitespace,Bona Rahmawati,  Bona   Rahmawati 
+451,Mail,email_case_whitespace,wulan.santoso451@yahoo.com,  Wulan.Santoso451@YAHOO.COM 
+453,Member,boolean_variant,false,NO
+455,No HP,phone_missing_zero,+6289324865616,89324865616
+457,Tgl Lahir,date_dmy_dash,1988-06-13,13-06-1988
+459,Member,boolean_variant,true,Ya
+459,Total Belanja,currency_rp_plain,18461000,Rp18461000
+460,Member,boolean_variant,true,YES
+460,Tgl Lahir,date_impossible,1996-02-01,1996-02-30
+461,Mail,missing_required,budi.wibowo461@gmail.com,
+461,Nama,text_whitespace,Budi Wibowo,  Budi   Wibowo 
+465,Mail,email_missing_at,wulan.susanto465@outlook.com,wulan.susanto465.outlook.com
+466,Total Belanja,currency_rp_plain,13269000,Rp13269000
+468,Tgl Lahir,date_impossible,1984-12-28,1984-02-30
+469,Member,boolean_variant,false,NO
+469,No HP,phone_missing_zero,+6285770029393,85770029393
+470,No HP,phone_too_short,+6287512052218,087512
+471,Member,boolean_variant,false,NO
+471,Nama,text_whitespace,Bona Susanto,  Bona   Susanto 
+471,Total Belanja,number_in_words,100000,seratus ribu
+473,Nama,text_whitespace,Arif Hutapea,  Arif   Hutapea 
+475,Mail,missing_required,maya.santoso475@hotmail.com,
+477,Nama,text_whitespace,Bayu Santoso,  Bayu   Santoso 
+480,No HP,phone_too_short,+6282425341456,082425
+484,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+485,Tgl Lahir,date_dmy,2004-05-19,19/05/2004
+486,Nama,text_whitespace,Rina Saputra,  Rina   Saputra 
+487,Nama,text_whitespace,Budi Gunawan,  Budi   Gunawan 
+487,Total Belanja,currency_rp_plain,19117000,Rp19117000
+493,Mail,email_domain_typo,siti.wijaya493@gmail.com,siti.wijaya493@gamil.com
+493,Nama,text_whitespace,Siti Wijaya,  Siti   Wijaya 
+494,Member,boolean_variant,false,Tidak
+494,No HP,phone_local_format,+6284251509993,084251509993
+498,Total Belanja,currency_rp_plain,785000,Rp785000
+502,Nama,text_whitespace,Rina Hutapea,  Rina   Hutapea 
+502,Total Belanja,currency_rp_plain,2305000,Rp2305000
+504,Total Belanja,currency_rp_dots,16543000,Rp 16.543.000
+507,Nama,text_whitespace,Fajar Hidayat,  Fajar   Hidayat 
+508,Total Belanja,currency_rp_plain,13447000,Rp13447000
+510,Mail,email_missing_at,rina.simanjuntak510@gmail.com,rina.simanjuntak510.gmail.com
+510,Tgl Lahir,date_dmy_dash,1990-01-30,30-01-1990
+510,Total Belanja,currency_rp_plain,8365000,Rp8365000
+511,Tgl Lahir,date_dmy,1998-07-19,19/07/1998
+512,Nama,text_whitespace,Maya Wijaya,  Maya   Wijaya 
+516,Member,boolean_variant,false,n
+520,No HP,phone_too_short,+6288334573422,088334
+523,Member,boolean_variant,false,Tidak
+525,No HP,phone_too_short,+6284184026670,084184
+527,No HP,phone_too_short,+6287225544645,087225
+529,Mail,email_case_whitespace,hendra.simanjuntak529@yahoo.com,  Hendra.Simanjuntak529@YAHOO.COM 
+530,No HP,phone_missing_zero,+6282244679307,82244679307
+530,Total Belanja,currency_rp_plain,12483000,Rp12483000
+531,Mail,email_missing_domain,rina.susanto531@hotmail.com,rina.susanto531@
+533,Tgl Lahir,date_dmy,1990-11-01,01/11/1990
+539,Mail,email_missing_domain,bona.siregar539@yahoo.com,bona.siregar539@
+540,Tgl Lahir,date_dmy_dash,2003-12-13,13-12-2003
+542,Tgl Lahir,date_dmy,2000-01-13,13/01/2000
+543,Nama,text_whitespace,Rina Santoso,  Rina   Santoso 
+546,Nama,text_whitespace,Teguh Pratama,  Teguh   Pratama 
+547,No HP,phone_missing_zero,+6286619134815,86619134815
+548,Total Belanja,currency_rp_plain,18530000,Rp18530000
+549,Total Belanja,currency_rp_plain,2984000,Rp2984000
+550,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+552,Tgl Lahir,date_dmy,1973-06-17,17/06/1973
+555,Mail,missing_required,teguh.putra555@gmail.com,
+556,No HP,phone_too_short,+6282696991974,082696
+557,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+558,Tgl Lahir,date_dmy,1979-10-25,25/10/1979
+561,Mail,missing_required,wulan.setiawan561@gmail.com,
+562,Total Belanja,currency_rp_plain,11860000,Rp11860000
+563,Mail,email_missing_at,teguh.rahmawati563@hotmail.com,teguh.rahmawati563.hotmail.com
+563,Total Belanja,number_in_words,500000,lima ratus ribu
+564,Member,boolean_variant,true,y
+564,Total Belanja,currency_rp_dots,12219000,Rp 12.219.000
+566,Member,boolean_variant,true,Ya
+567,_row,duplicate_row,drop_row,
+568,No HP,phone_missing_zero,+6287295841733,87295841733
+569,Nama,text_whitespace,Maya Halim,  Maya   Halim 
+571,Nama,text_whitespace,Rizki Santoso,  Rizki   Santoso 
+571,Total Belanja,currency_rp_dots,12470000,Rp 12.470.000
+574,Member,boolean_variant,false,NO
+577,Member,boolean_variant,true,YES
+577,No HP,phone_dashes,+6281941789378,0819-4178-9378
+578,Member,boolean_variant,true,y
+581,No HP,phone_too_short,+6285756343779,085756
+584,Total Belanja,currency_rp_dots,10368000,Rp 10.368.000
+585,Tgl Lahir,date_dmy_dash,1985-08-26,26-08-1985
+586,Nama,text_whitespace,Fajar Siregar,  Fajar   Siregar 
+586,No HP,phone_local_format,+6281998117334,081998117334
+590,No HP,phone_dashes,+6281691413791,0816-9141-3791
+594,No HP,phone_too_short,+6282116103503,082116
+596,Tgl Lahir,date_impossible,1984-10-04,1984-02-30
+598,Member,boolean_variant,false,NO
+600,Member,boolean_variant,true,Ya
+600,Nama,text_whitespace,Fajar Kusuma,  Fajar   Kusuma 
+601,Mail,email_missing_at,bayu.wibowo600@gmail.com,bayu.wibowo600.gmail.com
+605,Nama,text_whitespace,Hendra Wibowo,  Hendra   Wibowo 
+606,Total Belanja,currency_rp_plain,2926000,Rp2926000
+613,Tgl Lahir,date_impossible,1996-12-09,1996-02-30
+614,Tgl Lahir,date_dmy,1966-06-13,13/06/1966
+614,Total Belanja,currency_rp_dots,541000,Rp 541.000
+624,Tgl Lahir,date_impossible,1980-01-14,1980-02-30
+626,Total Belanja,currency_rp_dots,450000,Rp 450.000
+632,Nama,text_whitespace,Maya Saputra,  Maya   Saputra 
+632,Tgl Lahir,date_dmy,1978-02-19,19/02/1978
+632,Total Belanja,currency_rp_dots,4048000,Rp 4.048.000
+634,Total Belanja,currency_rp_dots,11645000,Rp 11.645.000
+637,Nama,text_whitespace,Budi Hidayat,  Budi   Hidayat 
+643,Member,boolean_variant,true,Ya
+648,No HP,phone_too_short,+6281278518768,081278
+649,No HP,phone_missing_zero,+6286691076744,86691076744
+651,Mail,missing_required,maya.hutapea650@hotmail.com,
+655,Tgl Lahir,date_impossible,1969-05-13,1969-02-30
+658,Mail,email_missing_at,hendra.lestari657@gmail.com,hendra.lestari657.gmail.com
+660,Mail,missing_required,bayu.saputra659@yahoo.com,
+663,Mail,email_case_whitespace,lestari.setiawan662@gmail.com,  Lestari.Setiawan662@GMAIL.COM 
+666,Total Belanja,currency_rp_plain,13294000,Rp13294000
+670,Total Belanja,number_in_words,1000000,satu juta
+671,Tgl Lahir,date_dmy_dash,1992-12-16,16-12-1992
+672,No HP,phone_dashes,+6284096580470,0840-9658-0470
+673,Tgl Lahir,date_dmy_dash,1990-11-08,08-11-1990
+674,Member,boolean_variant,true,YES
+674,Tgl Lahir,date_dmy_dash,1995-12-23,23-12-1995
+676,No HP,phone_dashes,+6287078036318,0870-7803-6318
+676,Total Belanja,number_in_words,1000000,satu juta
+677,Nama,text_whitespace,Ayu Siregar,  Ayu   Siregar 
+677,Total Belanja,currency_rp_plain,19633000,Rp19633000
+680,Member,boolean_variant,false,n
+680,Tgl Lahir,date_dmy_dash,1998-04-05,05-04-1998
+681,Total Belanja,currency_rp_dots,15939000,Rp 15.939.000
+682,No HP,phone_dashes,+6284089673262,0840-8967-3262
+683,Member,boolean_variant,false,Tidak
+685,Tgl Lahir,date_impossible,1988-10-17,1988-02-30
+687,Tgl Lahir,date_dmy,1976-06-15,15/06/1976
+691,Nama,text_whitespace,Arif Lestari,  Arif   Lestari 
+693,Mail,email_case_whitespace,rina.saputra692@yahoo.com,  Rina.Saputra692@YAHOO.COM 
+693,Member,boolean_variant,false,NO
+695,No HP,phone_dashes,+6284314862962,0843-1486-2962
+697,Member,boolean_variant,false,NO
+698,Total Belanja,currency_rp_plain,2347000,Rp2347000
+699,Member,boolean_variant,false,NO
+702,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+705,Nama,text_whitespace,Agus Wijaya,  Agus   Wijaya 
+707,No HP,phone_local_format,+6283558205134,083558205134
+707,Total Belanja,currency_rp_plain,7277000,Rp7277000
+708,Tgl Lahir,date_dmy_dash,1995-09-09,09-09-1995
+715,No HP,phone_missing_zero,+6287324665782,87324665782
+715,Total Belanja,currency_rp_plain,4939000,Rp4939000
+718,Nama,text_whitespace,Fitri Putra,  Fitri   Putra 
+719,Nama,text_whitespace,Dimas Nugroho,  Dimas   Nugroho 
+719,Total Belanja,currency_rp_plain,13569000,Rp13569000
+721,No HP,phone_missing_zero,+6283546082572,83546082572
+724,Member,boolean_variant,false,Tidak
+724,Nama,text_whitespace,Hendra Halim,  Hendra   Halim 
+727,Member,boolean_variant,true,Ya
+728,No HP,phone_missing_zero,+6287190796439,87190796439
+735,No HP,phone_too_short,+6281851038218,081851
+737,Mail,email_domain_typo,sari.simanjuntak736@gmail.com,sari.simanjuntak736@gmial.com
+738,Nama,text_whitespace,Rina Siregar,  Rina   Siregar 
+738,Tgl Lahir,date_impossible,1968-06-14,1968-02-30
+739,Nama,text_whitespace,Andi Gunawan,  Andi   Gunawan 
+739,Total Belanja,number_in_words,1000000,satu juta
+743,Nama,text_whitespace,Nur Wijaya,  Nur   Wijaya 
+743,Total Belanja,currency_rp_dots,14989000,Rp 14.989.000
+744,Mail,email_missing_at,rina.kusuma743@gmail.com,rina.kusuma743.gmail.com
+746,Nama,text_whitespace,Ayu Pratama,  Ayu   Pratama 
+746,No HP,phone_missing_zero,+6284817306114,84817306114
+750,Tgl Lahir,date_dmy_dash,1992-09-13,13-09-1992
+752,Mail,email_domain_typo,lestari.saputra751@gmail.com,lestari.saputra751@gmial.com
+752,No HP,phone_local_format,+6288782212170,088782212170
+755,Mail,email_missing_domain,rizki.siregar754@yahoo.com,rizki.siregar754@
+758,Nama,text_whitespace,Andi Kusuma,  Andi   Kusuma 
+760,Member,boolean_variant,true,YES
+761,Total Belanja,currency_rp_plain,14339000,Rp14339000
+762,Tgl Lahir,date_dmy,1997-11-17,17/11/1997
+763,Mail,email_missing_domain,rizki.pratama762@gmail.com,rizki.pratama762@
+763,No HP,phone_dashes,+6286386395644,0863-8639-5644
+765,Nama,text_whitespace,Sari Kusuma,  Sari   Kusuma 
+767,Nama,text_whitespace,Dimas Kusuma,  Dimas   Kusuma 
+770,Tgl Lahir,date_impossible,1974-12-23,1974-02-30
+772,Tgl Lahir,date_dmy_dash,1966-06-22,22-06-1966
+774,No HP,phone_dashes,+6285448271923,0854-4827-1923
+776,Member,boolean_variant,false,Tidak
+777,Mail,email_missing_at,arif.kusuma776@gmail.com,arif.kusuma776.gmail.com
+777,Tgl Lahir,date_dmy_dash,1984-09-21,21-09-1984
+779,Mail,missing_required,wulan.simanjuntak778@gmail.com,
+781,Tgl Lahir,date_dmy_dash,2002-09-23,23-09-2002
+783,Member,boolean_variant,true,YES
+786,No HP,phone_too_short,+6281610157497,081610
+786,Total Belanja,currency_rp_plain,1023000,Rp1023000
+790,Tgl Lahir,date_impossible,1979-02-10,1979-02-30
+793,Mail,email_missing_at,bayu.wibowo792@hotmail.com,bayu.wibowo792.hotmail.com
+793,No HP,phone_missing_zero,+6289648347151,89648347151
+796,Member,boolean_variant,true,y
+797,Nama,text_whitespace,Maya Hutapea,  Maya   Hutapea 
+798,Total Belanja,number_in_words,500000,lima ratus ribu
+799,Member,boolean_variant,true,y
+801,Nama,text_whitespace,Nur Wibowo,  Nur   Wibowo 
+801,Total Belanja,currency_rp_dots,18843000,Rp 18.843.000
+803,Tgl Lahir,date_impossible,1987-08-22,1987-02-30
+806,Tgl Lahir,date_dmy_dash,1988-06-05,05-06-1988
+809,Mail,missing_required,wulan.susanto808@gmail.com,
+809,Nama,text_whitespace,Wulan Susanto,  Wulan   Susanto 
+812,Total Belanja,currency_rp_dots,16442000,Rp 16.442.000
+813,Member,boolean_variant,true,y
+814,Total Belanja,currency_rp_dots,7065000,Rp 7.065.000
+815,Mail,email_domain_typo,wulan.susanto814@gmail.com,wulan.susanto814@gamil.com
+815,Member,boolean_variant,true,YES
+816,Mail,email_missing_domain,fajar.pratama815@gmail.com,fajar.pratama815@
+818,No HP,phone_missing_zero,+6281153744287,81153744287
+821,Member,boolean_variant,true,Ya
+821,No HP,phone_missing_zero,+6288044858104,88044858104
+825,Nama,text_whitespace,Andi Saputra,  Andi   Saputra 
+828,Mail,email_domain_typo,arif.gunawan827@yahoo.com,arif.gunawan827@yaho.com
+829,Total Belanja,currency_rp_plain,4316000,Rp4316000
+832,Total Belanja,currency_rp_plain,12616000,Rp12616000
+834,Nama,text_whitespace,Budi Wibowo,  Budi   Wibowo 
+834,Total Belanja,currency_rp_plain,9962000,Rp9962000
+837,Member,boolean_variant,false,n
+837,No HP,phone_local_format,+6284370386899,084370386899
+838,Nama,text_whitespace,Rina Hutapea,  Rina   Hutapea 
+838,No HP,phone_missing_zero,+6289486450010,89486450010
+847,Nama,text_whitespace,Fajar Kusuma,  Fajar   Kusuma 
+847,No HP,phone_too_short,+6281228947183,081228
+848,Total Belanja,currency_rp_plain,5100000,Rp5100000
+852,Nama,text_whitespace,Hendra Gunawan,  Hendra   Gunawan 
+853,Mail,email_missing_domain,lestari.siregar852@gmail.com,lestari.siregar852@
+861,Total Belanja,number_in_words,1000000,satu juta
+867,Mail,email_missing_at,dewi.halim866@yahoo.com,dewi.halim866.yahoo.com
+867,No HP,phone_dashes,+6289959549800,0899-5954-9800
+869,Tgl Lahir,date_impossible,1997-06-07,1997-02-30
+872,Tgl Lahir,date_impossible,1972-11-02,1972-02-30
+874,No HP,phone_missing_zero,+6286815888885,86815888885
+876,Mail,missing_required,bona.gunawan875@gmail.com,
+877,Nama,text_whitespace,Dewi Hidayat,  Dewi   Hidayat 
+877,Tgl Lahir,date_dmy,1984-09-12,12/09/1984
+878,Mail,email_case_whitespace,agus.wibowo877@gmail.com,  Agus.Wibowo877@GMAIL.COM 
+883,Member,boolean_variant,false,n
+886,Mail,email_missing_at,hendra.hutapea885@gmail.com,hendra.hutapea885.gmail.com
+888,No HP,phone_local_format,+6284877830962,084877830962
+889,Member,boolean_variant,true,y
+889,Tgl Lahir,date_impossible,2001-02-16,2001-02-30
+895,Tgl Lahir,date_dmy,2003-09-22,22/09/2003
+897,Member,boolean_variant,false,NO
+898,Nama,text_whitespace,Siti Siregar,  Siti   Siregar 
+899,Member,boolean_variant,false,NO
+901,Tgl Lahir,date_dmy,1982-05-16,16/05/1982
+905,Member,boolean_variant,false,n
+909,Mail,missing_required,bayu.lestari908@gmail.com,
+909,Member,boolean_variant,true,YES
+914,Total Belanja,number_in_words,1000000,satu juta
+920,Member,boolean_variant,true,y
+921,No HP,phone_local_format,+628992131640,08992131640
+922,Mail,missing_required,ayu.hidayat921@gmail.com,
+922,Total Belanja,number_in_words,100000,seratus ribu
+926,Tgl Lahir,date_dmy_dash,1970-09-19,19-09-1970
+927,Nama,text_whitespace,Lestari Santoso,  Lestari   Santoso 
+928,Tgl Lahir,date_impossible,2002-11-16,2002-02-30
+929,Mail,email_missing_domain,ayu.gunawan928@gmail.com,ayu.gunawan928@
+930,Tgl Lahir,date_dmy,1982-07-31,31/07/1982
+932,Total Belanja,number_in_words,500000,lima ratus ribu
+933,Mail,missing_required,dimas.wijaya932@gmail.com,
+933,Nama,text_whitespace,Dimas Wijaya,  Dimas   Wijaya 
+933,Tgl Lahir,date_dmy_dash,2001-11-09,09-11-2001
+934,Total Belanja,currency_rp_plain,2038000,Rp2038000
+935,No HP,phone_too_short,+6282391941162,082391
+936,Nama,text_whitespace,Nur Setiawan,  Nur   Setiawan 
+938,Nama,text_whitespace,Hendra Hutapea,  Hendra   Hutapea 
+938,No HP,phone_local_format,+6288696737424,088696737424
+943,Total Belanja,currency_rp_dots,6644000,Rp 6.644.000
+945,Mail,email_missing_at,dewi.putra944@yahoo.com,dewi.putra944.yahoo.com
+946,Total Belanja,currency_rp_dots,10913000,Rp 10.913.000
+947,Member,boolean_variant,true,y
+949,Nama,text_whitespace,Fitri Kusuma,  Fitri   Kusuma 
+955,Member,boolean_variant,true,YES
+957,No HP,phone_too_short,+6283742070495,083742
+961,No HP,phone_missing_zero,+6284768345747,84768345747
+966,Nama,text_whitespace,Putri Gunawan,  Putri   Gunawan 
+966,No HP,phone_local_format,+6285312526062,085312526062
+966,Tgl Lahir,date_dmy_dash,1991-05-02,02-05-1991
+967,No HP,phone_missing_zero,+6285719649583,85719649583
+969,Mail,email_domain_typo,bona.susanto968@hotmail.com,bona.susanto968@hotmial.com
+973,Member,boolean_variant,false,NO
+974,No HP,phone_too_short,+6281853209742,081853
+975,Total Belanja,currency_rp_dots,15607000,Rp 15.607.000
+976,Total Belanja,currency_rp_plain,4725000,Rp4725000
+978,No HP,phone_missing_zero,+6288824505052,88824505052
+983,No HP,phone_dashes,+6284216392453,0842-1639-2453
+986,No HP,phone_local_format,+6282960144114,082960144114
+988,Mail,missing_required,arif.siregar987@gmail.com,
+989,Total Belanja,number_in_words,100000,seratus ribu
+991,Mail,email_missing_at,sari.hidayat990@gmail.com,sari.hidayat990.gmail.com
+991,No HP,phone_dashes,+6283929693064,0839-2969-3064
+991,Tgl Lahir,date_dmy,1989-04-20,20/04/1989
+991,Total Belanja,currency_rp_dots,14070000,Rp 14.070.000
+992,Total Belanja,currency_rp_dots,10412000,Rp 10.412.000
+997,Mail,missing_required,putri.santoso996@gmail.com,
+999,Total Belanja,currency_rp_dots,4449000,Rp 4.449.000
+1000,No HP,phone_local_format,+6284128624348,084128624348
+1000,Total Belanja,number_in_words,500000,lima ratus ribu
+1001,Member,boolean_variant,true,Ya
+1006,Nama,text_whitespace,Wulan Putra,  Wulan   Putra 
+1009,Total Belanja,number_in_words,500000,lima ratus ribu
+1010,Mail,email_case_whitespace,bayu.halim1009@gmail.com,  Bayu.Halim1009@GMAIL.COM 
+1011,Nama,text_whitespace,Yoga Kusuma,  Yoga   Kusuma 
+1012,Tgl Lahir,date_dmy,1994-03-14,14/03/1994
+1015,Total Belanja,currency_rp_plain,14037000,Rp14037000
+1020,No HP,phone_dashes,+6286260153839,0862-6015-3839
+1025,Nama,text_whitespace,Bayu Wijaya,  Bayu   Wijaya 
+1026,Mail,missing_required,budi.lestari1025@gmail.com,
+1027,Mail,email_case_whitespace,lestari.hidayat1026@gmail.com,  Lestari.Hidayat1026@GMAIL.COM 
+1027,Member,boolean_variant,false,n
+1031,Mail,email_missing_at,lestari.susanto1030@gmail.com,lestari.susanto1030.gmail.com
+1034,No HP,phone_missing_zero,+6283931004485,83931004485
+1036,Total Belanja,currency_rp_dots,10234000,Rp 10.234.000
+1037,Nama,text_whitespace,Intan Hutapea,  Intan   Hutapea 
+1039,No HP,phone_too_short,+6288643968377,088643
+1040,Total Belanja,currency_rp_plain,16270000,Rp16270000
+1044,No HP,phone_local_format,+6286888863486,086888863486
+1048,Mail,email_domain_typo,reindra.setiawan1047@yahoo.com,reindra.setiawan1047@yaho.com
+1049,Nama,text_whitespace,Teguh Setiawan,  Teguh   Setiawan 
+1052,No HP,phone_too_short,+6286195051987,086195
+1052,Total Belanja,currency_rp_plain,17663000,Rp17663000
+1053,Mail,email_case_whitespace,maya.susanto1052@gmail.com,  Maya.Susanto1052@GMAIL.COM 
+1055,Member,boolean_variant,true,Ya
+1056,Mail,email_missing_at,agus.lestari1055@gmail.com,agus.lestari1055.gmail.com
+1057,Nama,text_whitespace,Nur Wijaya,  Nur   Wijaya 
+1060,Nama,text_whitespace,Yoga Simanjuntak,  Yoga   Simanjuntak 
+1061,Nama,text_whitespace,Teguh Kusuma,  Teguh   Kusuma 
+1063,Mail,email_case_whitespace,intan.pratama1062@yahoo.com,  Intan.Pratama1062@YAHOO.COM 
+1065,Mail,email_missing_domain,dimas.wibowo1064@gmail.com,dimas.wibowo1064@
+1065,Member,boolean_variant,true,Ya
+1065,No HP,phone_too_short,+6281114146204,081114
+1069,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+1070,Tgl Lahir,date_dmy,1996-09-26,26/09/1996
+1072,Member,boolean_variant,true,Ya
+1073,Tgl Lahir,date_dmy_dash,1989-11-10,10-11-1989
+1074,Mail,email_domain_typo,wulan.gunawan1073@gmail.com,wulan.gunawan1073@gmial.com
+1074,No HP,phone_missing_zero,+628612865661,8612865661
+1075,No HP,phone_dashes,+6284189741286,0841-8974-1286
+1076,Member,boolean_variant,true,y
+1077,Mail,email_domain_typo,hendra.simanjuntak1076@gmail.com,hendra.simanjuntak1076@gamil.com
+1077,Nama,text_whitespace,Hendra Simanjuntak,  Hendra   Simanjuntak 
+1079,Mail,email_domain_typo,andi.siregar1078@yahoo.com,andi.siregar1078@yaho.com
+1083,Nama,text_whitespace,Ayu Rahmawati,  Ayu   Rahmawati 
+1083,Tgl Lahir,date_dmy,1973-03-04,04/03/1973
+1086,Total Belanja,currency_rp_dots,4225000,Rp 4.225.000
+1087,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+1091,Nama,text_whitespace,Andi Pratama,  Andi   Pratama 
+1092,Member,boolean_variant,true,YES
+1094,Total Belanja,currency_rp_dots,10530000,Rp 10.530.000
+1095,No HP,phone_local_format,+6282258835429,082258835429
+1098,Total Belanja,currency_rp_plain,4325000,Rp4325000
+1099,Nama,text_whitespace,Andi Putra,  Andi   Putra 
+1101,Mail,email_case_whitespace,rizki.lestari1100@outlook.com,  Rizki.Lestari1100@OUTLOOK.COM 
+1101,Member,boolean_variant,false,NO
+1101,Tgl Lahir,date_impossible,1984-07-25,1984-02-30
+1102,No HP,phone_missing_zero,+6289826526992,89826526992
+1103,Tgl Lahir,date_dmy,2004-01-15,15/01/2004
+1103,Total Belanja,currency_rp_plain,2507000,Rp2507000
+1104,Nama,text_whitespace,Bayu Wibowo,  Bayu   Wibowo 
+1107,Member,boolean_variant,false,NO
+1112,Member,boolean_variant,false,n
+1113,Tgl Lahir,date_impossible,1994-01-18,1994-02-30
+1115,Total Belanja,currency_rp_dots,12632000,Rp 12.632.000
+1116,No HP,phone_local_format,+6281115272571,081115272571
+1117,Mail,email_missing_at,arif.saputra1116@yahoo.com,arif.saputra1116.yahoo.com
+1117,Member,boolean_variant,false,NO
+1119,Tgl Lahir,date_impossible,1969-08-08,1969-02-30
+1119,Total Belanja,currency_rp_dots,13658000,Rp 13.658.000
+1120,No HP,phone_dashes,+6289752639439,0897-5263-9439
+1121,Total Belanja,currency_rp_plain,9284000,Rp9284000
+1123,Mail,email_missing_domain,lestari.rahmawati1122@hotmail.com,lestari.rahmawati1122@
+1125,Tgl Lahir,date_dmy_dash,1985-01-14,14-01-1985
+1126,Member,boolean_variant,false,n
+1128,Total Belanja,currency_rp_plain,17498000,Rp17498000
+1131,Total Belanja,currency_rp_plain,4565000,Rp4565000
+1133,Tgl Lahir,date_dmy,1966-05-10,10/05/1966
+1134,No HP,phone_missing_zero,+6287056233612,87056233612
+1134,Tgl Lahir,date_dmy_dash,1986-01-27,27-01-1986
+1137,Nama,text_whitespace,Arif Nugroho,  Arif   Nugroho 
+1138,Tgl Lahir,date_impossible,1974-10-27,1974-02-30
+1140,Nama,text_whitespace,Dewi Lestari,  Dewi   Lestari 
+1140,Tgl Lahir,date_dmy_dash,1968-06-28,28-06-1968
+1141,Total Belanja,number_in_words,500000,lima ratus ribu
+1143,No HP,phone_dashes,+6283443207776,0834-4320-7776
+1146,Total Belanja,currency_rp_plain,16487000,Rp16487000
+1149,Mail,email_missing_at,wulan.lestari1148@gmail.com,wulan.lestari1148.gmail.com
+1149,No HP,phone_dashes,+6281838596710,0818-3859-6710
+1149,Tgl Lahir,date_impossible,1985-05-27,1985-02-30
+1150,Member,boolean_variant,true,y
+1151,Tgl Lahir,date_impossible,1966-10-11,1966-02-30
+1152,Member,boolean_variant,false,n
+1154,No HP,phone_missing_zero,+6283853106408,83853106408
+1156,Nama,text_whitespace,Bona Rahmawati,  Bona   Rahmawati 
+1158,Total Belanja,currency_rp_plain,2094000,Rp2094000
+1159,No HP,phone_missing_zero,+6289124636496,89124636496
+1166,Member,boolean_variant,true,YES
+1168,Nama,text_whitespace,Intan Rahmawati,  Intan   Rahmawati 
+1170,Nama,text_whitespace,Lestari Rahmawati,  Lestari   Rahmawati 
+1174,Mail,email_domain_typo,ayu.nugroho1173@gmail.com,ayu.nugroho1173@gmai.com
+1175,Mail,email_domain_typo,intan.wijaya1174@outlook.com,intan.wijaya1174@outlok.com
+1175,Total Belanja,number_in_words,500000,lima ratus ribu
+1177,Mail,email_missing_domain,yoga.rahmawati1176@gmail.com,yoga.rahmawati1176@
+1183,Total Belanja,currency_rp_dots,4697000,Rp 4.697.000
+1188,Nama,text_whitespace,Hendra Gunawan,  Hendra   Gunawan 
+1190,Total Belanja,currency_rp_plain,16296000,Rp16296000
+1191,Nama,text_whitespace,Rina Hidayat,  Rina   Hidayat 
+1195,No HP,phone_dashes,+6285533926044,0855-3392-6044
+1195,Total Belanja,currency_rp_plain,14120000,Rp14120000
+1198,Member,boolean_variant,false,Tidak
+1199,Nama,text_whitespace,Dimas Hutapea,  Dimas   Hutapea 
+1200,Nama,text_whitespace,Dewi Putra,  Dewi   Putra 
+1201,No HP,phone_dashes,+6287871801688,0878-7180-1688
+1202,Total Belanja,currency_rp_dots,13651000,Rp 13.651.000
+1203,Tgl Lahir,date_impossible,1999-10-01,1999-02-30
+1204,Mail,email_missing_at,teguh.lestari1203@gmail.com,teguh.lestari1203.gmail.com
+1205,Total Belanja,currency_rp_dots,14326000,Rp 14.326.000
+1213,Nama,text_whitespace,Hendra Lestari,  Hendra   Lestari 
+1213,Tgl Lahir,date_dmy,1970-11-01,01/11/1970
+1217,Mail,email_missing_at,intan.hidayat1216@outlook.com,intan.hidayat1216.outlook.com
+1222,Tgl Lahir,date_dmy_dash,1972-09-03,03-09-1972
+1224,Mail,email_domain_typo,rina.hutapea1223@yahoo.com,rina.hutapea1223@yaho.com
+1225,Member,boolean_variant,true,y
+1225,No HP,phone_too_short,+6285564596407,085564
+1228,No HP,phone_local_format,+6284896315679,084896315679
+1229,No HP,phone_missing_zero,+6286230562206,86230562206
+1231,Total Belanja,currency_rp_plain,17905000,Rp17905000
+1236,Total Belanja,number_in_words,500000,lima ratus ribu
+1244,Member,boolean_variant,false,Tidak
+1249,Member,boolean_variant,true,y
+1250,Total Belanja,number_in_words,1000000,satu juta
+1252,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+1255,Tgl Lahir,date_dmy_dash,1965-06-30,30-06-1965
+1256,Mail,email_missing_domain,rizki.putra1255@gmail.com,rizki.putra1255@
+1256,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+1259,Member,boolean_variant,false,Tidak
+1259,Tgl Lahir,date_impossible,1990-11-03,1990-02-30
+1260,Mail,email_missing_domain,yoga.setiawan1259@gmail.com,yoga.setiawan1259@
+1260,No HP,phone_dashes,+6282290289816,0822-9028-9816
+1261,Mail,email_domain_typo,lestari.halim1260@gmail.com,lestari.halim1260@gamil.com
+1264,No HP,phone_too_short,+6283522755295,083522
+1268,Nama,text_whitespace,Agus Putra,  Agus   Putra 
+1269,Total Belanja,currency_rp_plain,19759000,Rp19759000
+1272,Nama,text_whitespace,Fajar Santoso,  Fajar   Santoso 
+1275,Nama,text_whitespace,Dewi Wijaya,  Dewi   Wijaya 
+1275,No HP,phone_missing_zero,+6287141724121,87141724121
+1276,No HP,phone_dashes,+6288751920647,0887-5192-0647
+1277,Member,boolean_variant,true,y
+1281,Member,boolean_variant,false,NO
+1281,Tgl Lahir,date_dmy,1992-01-09,09/01/1992
+1283,Member,boolean_variant,true,y
+1284,No HP,phone_missing_zero,+6282028320680,82028320680
+1286,Mail,email_missing_domain,dewi.santoso1285@gmail.com,dewi.santoso1285@
+1286,Nama,text_whitespace,Dewi Santoso,  Dewi   Santoso 
+1287,No HP,phone_too_short,+6285852628627,085852
+1291,Mail,missing_required,intan.gunawan1290@yahoo.com,
+1291,Total Belanja,currency_rp_dots,12544000,Rp 12.544.000
+1294,Tgl Lahir,date_dmy,1984-11-28,28/11/1984
+1295,No HP,phone_dashes,+6284582916907,0845-8291-6907
+1297,Nama,text_whitespace,Reindra Wijaya,  Reindra   Wijaya 
+1299,No HP,phone_local_format,+6282469590026,082469590026
+1300,Nama,text_whitespace,Andi Hutapea,  Andi   Hutapea 
+1300,Tgl Lahir,date_dmy,1990-08-02,02/08/1990
+1302,Mail,email_domain_typo,sari.santoso1301@gmail.com,sari.santoso1301@gmial.com
+1305,Tgl Lahir,date_dmy_dash,2003-01-08,08-01-2003
+1305,Total Belanja,currency_rp_dots,1735000,Rp 1.735.000
+1307,Member,boolean_variant,false,n
+1307,Nama,text_whitespace,Rizki Hutapea,  Rizki   Hutapea 
+1308,No HP,phone_missing_zero,+6283961259467,83961259467
+1310,Nama,text_whitespace,Nur Hutapea,  Nur   Hutapea 
+1310,Total Belanja,currency_rp_plain,13435000,Rp13435000
+1312,Nama,text_whitespace,Fitri Lestari,  Fitri   Lestari 
+1319,Tgl Lahir,date_dmy_dash,1998-12-21,21-12-1998
+1321,_row,duplicate_row,drop_row,
+1325,Mail,missing_required,hendra.pratama1323@gmail.com,
+1326,Mail,email_domain_typo,agus.pratama1324@gmail.com,agus.pratama1324@gmial.com
+1327,No HP,phone_missing_zero,+6289843253072,89843253072
+1329,No HP,phone_missing_zero,+6287021325007,87021325007
+1330,Member,boolean_variant,true,YES
+1334,No HP,phone_missing_zero,+6283263375800,83263375800
+1335,Mail,email_domain_typo,ayu.setiawan1333@yahoo.com,ayu.setiawan1333@yaho.com
+1336,No HP,phone_local_format,+6288144378098,088144378098
+1354,Mail,missing_required,arif.hidayat1352@outlook.com,
+1355,Mail,email_missing_at,rizki.halim1353@gmail.com,rizki.halim1353.gmail.com
+1360,Nama,text_whitespace,Wulan Putra,  Wulan   Putra 
+1360,Total Belanja,currency_rp_plain,4484000,Rp4484000
+1361,Nama,text_whitespace,Dimas Rahmawati,  Dimas   Rahmawati 
+1364,No HP,phone_missing_zero,+6289843253072,89843253072
+1364,_row,duplicate_row,drop_row,
+1367,Mail,email_case_whitespace,hendra.setiawan1364@hotmail.com,  Hendra.Setiawan1364@HOTMAIL.COM 
+1367,Nama,text_whitespace,Hendra Setiawan,  Hendra   Setiawan 
+1368,Tgl Lahir,date_dmy_dash,1965-02-13,13-02-1965
+1373,Total Belanja,number_in_words,500000,lima ratus ribu
+1381,Total Belanja,number_in_words,1000000,satu juta
+1384,Total Belanja,currency_rp_dots,2871000,Rp 2.871.000
+1386,Mail,missing_required,agus.nugroho1383@gmail.com,
+1386,Member,boolean_variant,false,NO
+1386,Nama,text_whitespace,Agus Nugroho,  Agus   Nugroho 
+1389,Mail,email_domain_typo,bona.gunawan1386@gmail.com,bona.gunawan1386@gamil.com
+1391,Member,boolean_variant,true,y
+1392,Tgl Lahir,date_dmy_dash,1985-12-17,17-12-1985
+1395,Total Belanja,currency_rp_plain,14303000,Rp14303000
+1396,No HP,phone_dashes,+6283969043121,0839-6904-3121
+1397,Member,boolean_variant,true,y
+1397,No HP,phone_dashes,+6287523331780,0875-2333-1780
+1398,Tgl Lahir,date_dmy,1970-10-30,30/10/1970
+1399,Member,boolean_variant,true,YES
+1399,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+1401,Tgl Lahir,date_dmy,1972-02-24,24/02/1972
+1404,Total Belanja,currency_rp_plain,5887000,Rp5887000
+1405,Member,boolean_variant,false,Tidak
+1408,No HP,phone_missing_zero,+6281122593455,81122593455
+1412,Total Belanja,number_in_words,500000,lima ratus ribu
+1414,Tgl Lahir,date_impossible,1980-02-20,1980-02-30
+1415,Member,boolean_variant,false,n
+1421,Mail,missing_required,andi.rahmawati1418@gmail.com,
+1421,Total Belanja,currency_rp_dots,6135000,Rp 6.135.000
+1422,Total Belanja,number_in_words,250000,dua ratus lima puluh ribu
+1423,No HP,phone_local_format,+6283831175470,083831175470
+1423,Tgl Lahir,date_dmy_dash,1991-11-16,16-11-1991
+1425,Total Belanja,currency_rp_dots,461000,Rp 461.000
+1426,Tgl Lahir,date_dmy_dash,2003-04-29,29-04-2003
+1431,Total Belanja,currency_rp_dots,13193000,Rp 13.193.000
+1432,Tgl Lahir,date_dmy,1979-05-01,01/05/1979
+1435,No HP,phone_too_short,+6288884204293,088884
+1435,Tgl Lahir,date_dmy,1973-06-22,22/06/1973
+1440,Mail,email_missing_domain,sari.hutapea1437@gmail.com,sari.hutapea1437@
+1441,No HP,phone_missing_zero,+6287324665782,87324665782
+1441,Total Belanja,currency_rp_plain,4939000,Rp4939000
+1441,_row,duplicate_row,drop_row,
+1442,Nama,text_whitespace,Fitri Wijaya,  Fitri   Wijaya 
+1444,No HP,phone_missing_zero,+6286197183728,86197183728
+1445,Nama,text_whitespace,Intan Lestari,  Intan   Lestari 
+1446,Nama,text_whitespace,Intan Hutapea,  Intan   Hutapea 
+1448,Total Belanja,currency_rp_dots,1221000,Rp 1.221.000
+1450,Total Belanja,currency_rp_dots,4262000,Rp 4.262.000
+1451,Member,boolean_variant,false,Tidak
+1452,Nama,text_whitespace,Ayu Gunawan,  Ayu   Gunawan 
+1453,No HP,phone_missing_zero,+6285751731447,85751731447
+1455,Mail,email_domain_typo,nur.hidayat1451@gmail.com,nur.hidayat1451@gmial.com
+1458,Nama,text_whitespace,Rizki Gunawan,  Rizki   Gunawan 
+1458,Tgl Lahir,date_dmy_dash,1976-02-15,15-02-1976
+1465,Mail,email_missing_at,lestari.susanto1461@gmail.com,lestari.susanto1461.gmail.com
+1465,Nama,text_whitespace,Lestari Susanto,  Lestari   Susanto 
+1466,Member,boolean_variant,false,NO
+1468,Nama,text_whitespace,Dimas Gunawan,  Dimas   Gunawan 
+1469,Tgl Lahir,date_dmy_dash,1999-05-19,19-05-1999
+1473,Mail,email_missing_at,teguh.rahmawati563@hotmail.com,teguh.rahmawati563.hotmail.com
+1473,Total Belanja,number_in_words,500000,lima ratus ribu
+1473,_row,duplicate_row,drop_row,
+1474,Member,boolean_variant,false,Tidak
+1476,Nama,text_whitespace,Sari Gunawan,  Sari   Gunawan 
+1476,Tgl Lahir,date_dmy,1984-09-28,28/09/1984
+1479,Total Belanja,currency_rp_plain,10684000,Rp10684000
+1481,Mail,email_case_whitespace,arif.santoso1476@gmail.com,  Arif.Santoso1476@GMAIL.COM 
+1483,No HP,phone_too_short,+6286066277802,086066
+1485,Mail,email_case_whitespace,yoga.hutapea1480@hotmail.com,  Yoga.Hutapea1480@HOTMAIL.COM 
+1485,Member,boolean_variant,true,Ya
+1487,Tgl Lahir,date_impossible,1994-03-06,1994-02-30
+1488,Nama,text_whitespace,Budi Setiawan,  Budi   Setiawan 
+1489,Nama,text_whitespace,Reindra Wibowo,  Reindra   Wibowo 
+1490,Mail,email_domain_typo,arif.pratama1485@gmail.com,arif.pratama1485@gmai.com
+1490,No HP,phone_local_format,+6283314542098,083314542098
+1496,Member,boolean_variant,false,n
+1496,No HP,phone_too_short,+628683167007,086831
+1499,Member,boolean_variant,true,Ya
+1499,No HP,phone_missing_zero,+6282919820058,82919820058
+1500,Member,boolean_variant,false,NO
+1504,No HP,phone_dashes,+628639902088,0863-9902-088
+1504,Total Belanja,currency_rp_dots,7347000,Rp 7.347.000
+1505,Member,boolean_variant,false,n
+1509,Nama,text_whitespace,Dimas Putra,  Dimas   Putra 
+1509,Total Belanja,currency_rp_plain,16987000,Rp16987000
+1512,No HP,phone_local_format,+6286729834825,086729834825
+1516,Tgl Lahir,date_dmy,1978-10-10,10/10/1978
+1517,No HP,phone_dashes,+6288621370384,0886-2137-0384
+1517,Total Belanja,number_in_words,500000,lima ratus ribu
+1518,Total Belanja,currency_rp_plain,17445000,Rp17445000
+1519,No HP,phone_local_format,+6288857910429,088857910429
+1520,Mail,email_missing_domain,siti.setiawan1515@yahoo.com,siti.setiawan1515@
+1522,_row,duplicate_row,drop_row,
+1523,Total Belanja,currency_rp_dots,5301000,Rp 5.301.000
+1524,Nama,text_whitespace,Yoga Hidayat,  Yoga   Hidayat 
+1524,Tgl Lahir,date_dmy_dash,1976-02-25,25-02-1976
+1525,No HP,phone_missing_zero,+6281186464025,81186464025
+1528,Tgl Lahir,date_impossible,1984-02-09,1984-02-30
+1531,Member,boolean_variant,false,Tidak
+1532,Tgl Lahir,date_dmy,1969-08-31,31/08/1969
+1534,Nama,text_whitespace,Yoga Rahmawati,  Yoga   Rahmawati 
+1536,Total Belanja,number_in_words,1000000,satu juta
+1537,Mail,email_case_whitespace,putri.wibowo1531@yahoo.com,  Putri.Wibowo1531@YAHOO.COM 
+1537,Total Belanja,currency_rp_dots,10683000,Rp 10.683.000
+1539,Total Belanja,currency_rp_plain,7507000,Rp7507000
+1543,Tgl Lahir,date_impossible,1996-12-03,1996-02-30
+1544,Member,boolean_variant,true,Ya
+1546,No HP,phone_too_short,+6284733706202,084733
+1546,Tgl Lahir,date_dmy,1994-01-24,24/01/1994
+1549,No HP,phone_missing_zero,+6289934137733,89934137733
+1549,Tgl Lahir,date_dmy_dash,1981-01-07,07-01-1981
+1551,Mail,email_case_whitespace,rizki.wibowo1545@hotmail.com,  Rizki.Wibowo1545@HOTMAIL.COM 
+1553,Total Belanja,currency_rp_dots,9096000,Rp 9.096.000
+1555,Nama,text_whitespace,Putri Gunawan,  Putri   Gunawan 
+1567,No HP,phone_dashes,+6284066869786,0840-6686-9786
+1569,Tgl Lahir,date_impossible,1984-02-09,1984-02-30
+1569,_row,duplicate_row,drop_row,
+1570,No HP,phone_dashes,+6284643992142,0846-4399-2142
+1572,Tgl Lahir,date_dmy,1969-09-06,06/09/1969
+1573,Nama,text_whitespace,Reindra Wijaya,  Reindra   Wijaya 
+1573,_row,duplicate_row,drop_row,
+1574,Member,boolean_variant,true,YES
+1574,Nama,text_whitespace,Bona Wijaya,  Bona   Wijaya 
+1576,Total Belanja,currency_rp_dots,14264000,Rp 14.264.000
+1577,Total Belanja,currency_rp_plain,6135000,Rp6135000
+1578,No HP,phone_missing_zero,+628471636028,8471636028
+1580,Mail,email_case_whitespace,sari.wibowo1572@gmail.com,  Sari.Wibowo1572@GMAIL.COM 
+1590,Total Belanja,currency_rp_dots,6418000,Rp 6.418.000
+1594,Member,boolean_variant,false,Tidak
+1595,No HP,phone_local_format,+6284092654759,084092654759
+1598,Tgl Lahir,date_dmy_dash,1983-05-30,30-05-1983
+1602,Tgl Lahir,date_dmy_dash,1999-05-19,19-05-1999
+1602,_row,duplicate_row,drop_row,
+1606,No HP,phone_too_short,+6282666321753,082666
+1607,Mail,email_case_whitespace,lestari.lestari1598@gmail.com,  Lestari.Lestari1598@GMAIL.COM 
+1608,Member,boolean_variant,false,NO
+1608,Nama,text_whitespace,Ayu Hidayat,  Ayu   Hidayat 
+1609,Mail,email_domain_typo,yoga.putra1600@gmail.com,yoga.putra1600@gmial.com
+1610,Member,boolean_variant,false,n
+1610,No HP,phone_too_short,+6288175131297,088175
+1610,Tgl Lahir,date_dmy_dash,1983-08-17,17-08-1983
+1614,Member,boolean_variant,false,Tidak
+1616,No HP,phone_missing_zero,+6287243757412,87243757412
+1618,Nama,text_whitespace,Lestari Saputra,  Lestari   Saputra 
+1618,Total Belanja,currency_rp_plain,4331000,Rp4331000
+1620,Member,boolean_variant,false,n
+1622,Nama,text_whitespace,Budi Pratama,  Budi   Pratama 
+1623,No HP,phone_local_format,+6281199851829,081199851829
+1625,Nama,text_whitespace,Fitri Saputra,  Fitri   Saputra 
+1630,_row,duplicate_row,drop_row,
+1634,Tgl Lahir,date_dmy,1990-07-14,14/07/1990
+1635,Member,boolean_variant,false,n
+1636,Tgl Lahir,date_impossible,2004-06-22,2004-02-30
+1639,Total Belanja,currency_rp_dots,11103000,Rp 11.103.000
+1643,Mail,missing_required,teguh.siregar1633@hotmail.com,
+1643,Nama,text_whitespace,Teguh Siregar,  Teguh   Siregar 
+1649,Nama,text_whitespace,Rizki Setiawan,  Rizki   Setiawan 
+1650,Member,boolean_variant,false,NO
+1652,Nama,text_whitespace,Fitri Hidayat,  Fitri   Hidayat 
+1656,Nama,text_whitespace,Maya Halim,  Maya   Halim 
+1659,Nama,text_whitespace,Dewi Gunawan,  Dewi   Gunawan 
+1660,Total Belanja,currency_rp_dots,13175000,Rp 13.175.000
+1661,Nama,text_whitespace,Arif Pratama,  Arif   Pratama 
+1665,Member,boolean_variant,true,YES
+1667,Mail,missing_required,teguh.siregar1657@yahoo.com,
+1668,Member,boolean_variant,true,y
+1668,Total Belanja,currency_rp_plain,12915000,Rp12915000
+1670,Tgl Lahir,date_impossible,2002-05-13,2002-02-30
+1670,Total Belanja,currency_rp_plain,7073000,Rp7073000
+1671,Mail,missing_required,teguh.nugroho1661@gmail.com,
+1671,Tgl Lahir,date_impossible,1990-06-06,1990-02-30
+1672,Nama,text_whitespace,Andi Kusuma,  Andi   Kusuma 
+1672,Tgl Lahir,date_dmy,2003-08-06,06/08/2003
+1673,Member,boolean_variant,true,y
+1673,Nama,text_whitespace,Wulan Halim,  Wulan   Halim 
+1674,Total Belanja,number_in_words,500000,lima ratus ribu
+1675,Member,boolean_variant,false,NO
+1675,Nama,text_whitespace,Dewi Wijaya,  Dewi   Wijaya 
+1676,Total Belanja,currency_rp_dots,3984000,Rp 3.984.000
+1677,Total Belanja,currency_rp_plain,15664000,Rp15664000
+1681,Total Belanja,currency_rp_plain,14729000,Rp14729000
+1684,No HP,phone_local_format,+6284720814990,084720814990
+1685,No HP,phone_too_short,+6285587632730,085587
+1687,_row,duplicate_row,drop_row,
+1688,Tgl Lahir,date_impossible,2003-03-07,2003-02-30
+1689,Nama,text_whitespace,Dewi Gunawan,  Dewi   Gunawan 
+1689,Total Belanja,currency_rp_plain,3451000,Rp3451000
+1690,Tgl Lahir,date_impossible,1995-09-07,1995-02-30
+1692,Total Belanja,number_in_words,100000,seratus ribu
+1694,No HP,phone_too_short,+6284261746857,084261
+1694,Tgl Lahir,date_impossible,1974-04-16,1974-02-30
+1694,Total Belanja,currency_rp_plain,2387000,Rp2387000
+1695,Member,boolean_variant,false,Tidak
+1695,No HP,phone_too_short,+6285951320365,085951
+1695,Total Belanja,currency_rp_plain,9887000,Rp9887000
+1697,Member,boolean_variant,false,NO
+1697,Total Belanja,currency_rp_dots,12624000,Rp 12.624.000
+1698,Nama,text_whitespace,Lestari Halim,  Lestari   Halim 
+1698,Total Belanja,currency_rp_dots,16022000,Rp 16.022.000
+1700,Mail,email_case_whitespace,siti.hutapea1689@gmail.com,  Siti.Hutapea1689@GMAIL.COM 
+1700,Nama,text_whitespace,Siti Hutapea,  Siti   Hutapea 
+1703,Member,boolean_variant,true,Ya
+1707,Total Belanja,currency_rp_plain,14139000,Rp14139000
+1709,No HP,phone_missing_zero,+628254235892,8254235892
+1709,Total Belanja,currency_rp_plain,8020000,Rp8020000
+1710,Total Belanja,currency_rp_plain,17938000,Rp17938000
+1714,Mail,email_domain_typo,wulan.hidayat1703@outlook.com,wulan.hidayat1703@outlok.com
+1717,Nama,text_whitespace,Lestari Simanjuntak,  Lestari   Simanjuntak 
+1718,Total Belanja,currency_rp_plain,9474000,Rp9474000
+1721,No HP,phone_dashes,+6287046241475,0870-4624-1475
+1727,Total Belanja,currency_rp_dots,15920000,Rp 15.920.000
+1729,No HP,phone_missing_zero,+6284569601151,84569601151
+1730,Member,boolean_variant,false,NO
+1730,No HP,phone_too_short,+6282364937051,082364
+1730,Tgl Lahir,date_dmy_dash,1967-04-16,16-04-1967
+1731,Member,boolean_variant,true,YES
+1731,No HP,phone_dashes,+6281510432819,0815-1043-2819
+1733,Member,boolean_variant,true,Ya
+1734,Mail,email_missing_domain,sari.wibowo1723@gmail.com,sari.wibowo1723@
+1735,Nama,text_whitespace,Bona Nugroho,  Bona   Nugroho 
+1735,No HP,phone_missing_zero,+6287983717934,87983717934
+1736,Total Belanja,currency_rp_dots,3185000,Rp 3.185.000
+1737,Nama,text_whitespace,Sari Kusuma,  Sari   Kusuma 
+1739,Member,boolean_variant,false,Tidak
+1740,Mail,email_case_whitespace,intan.gunawan1729@outlook.com,  Intan.Gunawan1729@OUTLOOK.COM 
+1740,Nama,text_whitespace,Intan Gunawan,  Intan   Gunawan 
+1744,Nama,text_whitespace,Bayu Santoso,  Bayu   Santoso 
+1744,No HP,phone_too_short,+6282159701780,082159
+1745,Mail,email_domain_typo,putri.wibowo1734@yahoo.com,putri.wibowo1734@yaho.com
+1747,Member,boolean_variant,false,NO
+1748,_row,duplicate_row,drop_row,
+1751,Nama,text_whitespace,Agus Lestari,  Agus   Lestari 
+1751,Tgl Lahir,date_impossible,1977-01-26,1977-02-30
+1753,No HP,phone_local_format,+6282723414530,082723414530
+1754,Nama,text_whitespace,Reindra Pratama,  Reindra   Pratama 
+1758,No HP,phone_too_short,+6288650325184,088650
+1759,Member,boolean_variant,true,y
+1759,Total Belanja,currency_rp_plain,12292000,Rp12292000
+1763,Nama,text_whitespace,Ayu Wijaya,  Ayu   Wijaya 
+1763,No HP,phone_local_format,+6281981293939,081981293939
+1764,No HP,phone_too_short,+6285545486784,085545
+1766,Total Belanja,number_in_words,1000000,satu juta
+1767,Nama,text_whitespace,Nur Simanjuntak,  Nur   Simanjuntak 
+1768,Member,boolean_variant,false,Tidak
+1771,Nama,text_whitespace,Reindra Rahmawati,  Reindra   Rahmawati 
+1771,Tgl Lahir,date_impossible,1989-07-16,1989-02-30
+1772,Total Belanja,currency_rp_dots,15395000,Rp 15.395.000
+1773,_row,duplicate_row,drop_row,
+1780,Total Belanja,currency_rp_dots,1052000,Rp 1.052.000
+1782,Mail,email_domain_typo,dimas.kusuma1769@gmail.com,dimas.kusuma1769@gmial.com
+1783,Member,boolean_variant,true,Ya
+1784,Total Belanja,currency_rp_plain,12068000,Rp12068000
+1785,Mail,email_domain_typo,rina.siregar1772@gmail.com,rina.siregar1772@gamil.com
+1785,Tgl Lahir,date_impossible,1979-10-24,1979-02-30
+1787,No HP,phone_dashes,+6283087364279,0830-8736-4279
+1789,Member,boolean_variant,true,y
+1791,Nama,text_whitespace,Dewi Putra,  Dewi   Putra 
+1791,No HP,phone_dashes,+6285293304995,0852-9330-4995
+1791,Total Belanja,currency_rp_dots,2456000,Rp 2.456.000
+1793,Mail,missing_required,teguh.wijaya1780@gmail.com,
+1794,Mail,email_case_whitespace,bayu.kusuma1781@gmail.com,  Bayu.Kusuma1781@GMAIL.COM 
+1794,Tgl Lahir,date_dmy,2001-06-13,13/06/2001
+1795,Nama,text_whitespace,Lestari Hutapea,  Lestari   Hutapea 
+1797,Mail,missing_required,andi.kusuma1784@gmail.com,
+1797,No HP,phone_missing_zero,+6285383527384,85383527384
+1799,Mail,email_missing_at,hendra.setiawan1786@hotmail.com,hendra.setiawan1786.hotmail.com
+1799,Member,boolean_variant,true,y
+1799,Tgl Lahir,date_dmy,2004-11-26,26/11/2004
+1800,Nama,text_whitespace,Rizki Susanto,  Rizki   Susanto 
+1800,Total Belanja,currency_rp_plain,15006000,Rp15006000
+1803,_row,duplicate_row,drop_row,
+1808,No HP,phone_missing_zero,+6282218431859,82218431859
+1811,No HP,phone_missing_zero,+6282461571332,82461571332
+1812,No HP,phone_too_short,+6284512176055,084512
+1813,Mail,email_domain_typo,ayu.kusuma1799@gmail.com,ayu.kusuma1799@gmai.com
+1813,Total Belanja,currency_rp_dots,17918000,Rp 17.918.000
+1814,Nama,text_whitespace,Rina Pratama,  Rina   Pratama 
+1818,Total Belanja,currency_rp_dots,293000,Rp 293.000
+1822,Mail,email_missing_at,intan.saputra1808@gmail.com,intan.saputra1808.gmail.com
+1823,Nama,text_whitespace,Nur Hutapea,  Nur   Hutapea 
+1824,Member,boolean_variant,true,YES
+1824,Nama,text_whitespace,Dewi Lestari,  Dewi   Lestari 
+1826,Nama,text_whitespace,Maya Siregar,  Maya   Siregar 
+1833,Member,boolean_variant,true,y
+1833,Total Belanja,currency_rp_plain,13338000,Rp13338000
+1835,Nama,text_whitespace,Reindra Hidayat,  Reindra   Hidayat 
+1835,No HP,phone_missing_zero,+6289329213232,89329213232
+1842,Mail,email_missing_domain,arif.wibowo1828@gmail.com,arif.wibowo1828@
+1842,Member,boolean_variant,false,NO
+1846,Total Belanja,number_in_words,100000,seratus ribu
+1847,No HP,phone_too_short,+6284294419153,084294
+1848,Member,boolean_variant,false,Tidak
+1850,Nama,text_whitespace,Wulan Nugroho,  Wulan   Nugroho 
+1851,No HP,phone_missing_zero,+6282392397004,82392397004
+1852,_row,duplicate_row,drop_row,
+1853,Mail,email_case_whitespace,arif.pratama1838@gmail.com,  Arif.Pratama1838@GMAIL.COM 
+1854,Nama,text_whitespace,Reindra Rahmawati,  Reindra   Rahmawati 
+1854,Tgl Lahir,date_impossible,1989-07-16,1989-02-30
+1854,_row,duplicate_row,drop_row,
+1857,Tgl Lahir,date_impossible,1989-04-09,1989-02-30
+1861,Total Belanja,currency_rp_dots,7443000,Rp 7.443.000
+1864,Tgl Lahir,date_impossible,1969-11-12,1969-02-30
+1871,Tgl Lahir,date_dmy,2002-02-23,23/02/2002
+1872,Mail,email_case_whitespace,hendra.pratama1856@outlook.com,  Hendra.Pratama1856@OUTLOOK.COM 
+1875,No HP,phone_too_short,+6289082184381,089082
+1877,Nama,text_whitespace,Maya Pratama,  Maya   Pratama 
+1881,Tgl Lahir,date_dmy_dash,1975-07-31,31-07-1975
+1882,Total Belanja,currency_rp_dots,18951000,Rp 18.951.000
+1884,Mail,email_missing_domain,budi.gunawan1868@gmail.com,budi.gunawan1868@
+1885,Mail,missing_required,hendra.lestari1869@gmail.com,
+1889,Total Belanja,currency_rp_plain,17362000,Rp17362000
+1890,Total Belanja,currency_rp_dots,12835000,Rp 12.835.000
+1891,Mail,email_missing_domain,bona.simanjuntak1875@gmail.com,bona.simanjuntak1875@
+1891,No HP,phone_dashes,+6286131746470,0861-3174-6470
+1894,Mail,missing_required,putri.susanto1878@gmail.com,
+1894,No HP,phone_local_format,+6285298374245,085298374245
+1894,Total Belanja,currency_rp_plain,5897000,Rp5897000
+1895,Mail,email_case_whitespace,sari.wijaya1879@gmail.com,  Sari.Wijaya1879@GMAIL.COM 
+1896,_row,duplicate_row,drop_row,
+1900,No HP,phone_missing_zero,+6282755357442,82755357442
+1902,No HP,phone_missing_zero,+628772125006,8772125006
+1902,Total Belanja,currency_rp_plain,13393000,Rp13393000
+1903,Total Belanja,number_in_words,100000,seratus ribu
+1905,Member,boolean_variant,false,Tidak
+1906,Mail,email_missing_domain,ayu.simanjuntak1889@gmail.com,ayu.simanjuntak1889@
+1909,No HP,phone_local_format,+6281913378195,081913378195
+1910,Tgl Lahir,date_dmy_dash,1970-11-01,01-11-1970
+1914,Nama,text_whitespace,Dimas Hidayat,  Dimas   Hidayat 
+1915,Member,boolean_variant,true,Ya
+1915,Tgl Lahir,date_dmy,1973-03-24,24/03/1973
+1917,Nama,text_whitespace,Hendra Putra,  Hendra   Putra 
+1918,Mail,email_domain_typo,intan.wijaya1901@hotmail.com,intan.wijaya1901@hotmial.com
+1921,Mail,email_missing_at,bona.setiawan1904@outlook.com,bona.setiawan1904.outlook.com
+1921,Nama,text_whitespace,Bona Setiawan,  Bona   Setiawan 
+1922,Member,boolean_variant,true,y
+1924,Tgl Lahir,date_dmy_dash,1969-11-11,11-11-1969
+1924,Total Belanja,currency_rp_dots,7358000,Rp 7.358.000
+1926,Mail,email_missing_domain,rina.hidayat1909@outlook.com,rina.hidayat1909@
+1926,No HP,phone_dashes,+6288730581231,0887-3058-1231
+1927,_row,duplicate_row,drop_row,
+1935,Total Belanja,currency_rp_dots,12737000,Rp 12.737.000
+1936,Nama,text_whitespace,Sari Hutapea,  Sari   Hutapea 
+1938,No HP,phone_dashes,+6286687177608,0866-8717-7608
+1939,No HP,phone_missing_zero,+6287360142981,87360142981
+1939,Total Belanja,currency_rp_dots,8901000,Rp 8.901.000
+1941,Total Belanja,currency_rp_dots,16174000,Rp 16.174.000
+1946,Mail,email_case_whitespace,rizki.halim1928@yahoo.com,  Rizki.Halim1928@YAHOO.COM 
+1947,Tgl Lahir,date_dmy,1978-04-24,24/04/1978
+1949,Member,boolean_variant,true,Ya
+1951,Member,boolean_variant,false,NO
+1953,Mail,email_missing_domain,dewi.gunawan1935@yahoo.com,dewi.gunawan1935@
+1957,Tgl Lahir,date_dmy,1968-11-13,13/11/1968
+1961,Tgl Lahir,date_dmy,1994-09-17,17/09/1994
+1966,Mail,email_domain_typo,sari.susanto1948@hotmail.com,sari.susanto1948@hotmial.com
+1967,Member,boolean_variant,true,YES
+1969,Total Belanja,number_in_words,500000,lima ratus ribu
+1970,Nama,text_whitespace,Lestari Putra,  Lestari   Putra 
+1972,Nama,text_whitespace,Reindra Simanjuntak,  Reindra   Simanjuntak 
+1978,Member,boolean_variant,true,y
+1982,Member,boolean_variant,true,YES
+1982,Total Belanja,currency_rp_plain,7077000,Rp7077000
+1984,Total Belanja,currency_rp_dots,5860000,Rp 5.860.000
+1987,No HP,phone_local_format,+6284720814990,084720814990
+1987,_row,duplicate_row,drop_row,
+1991,Member,boolean_variant,true,YES
+1991,Tgl Lahir,date_dmy_dash,1968-09-21,21-09-1968
+1998,Mail,missing_required,rina.susanto1979@gmail.com,
+2001,No HP,phone_missing_zero,+6283225248472,83225248472
+2003,Nama,text_whitespace,Bayu Pratama,  Bayu   Pratama 
+2003,Total Belanja,currency_rp_dots,1121000,Rp 1.121.000
+2004,Tgl Lahir,date_dmy_dash,1975-10-26,26-10-1975
+2005,No HP,phone_local_format,+6286697260196,086697260196
+2006,Member,boolean_variant,true,y
+2009,Tgl Lahir,date_dmy,1970-06-25,25/06/1970
+2016,No HP,phone_missing_zero,+6283225248472,83225248472
+2016,_row,duplicate_row,drop_row,
+2019,Mail,email_case_whitespace,ayu.kusuma1999@gmail.com,  Ayu.Kusuma1999@GMAIL.COM 
