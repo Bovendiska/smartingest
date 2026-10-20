@@ -19,7 +19,7 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import Annotated, Any
 
-from fastapi import Depends, FastAPI, File, Header, HTTPException, Path, Query, Request, UploadFile
+from fastapi import Depends, FastAPI, File, Header, HTTPException, Path, Query, Request, Response, UploadFile
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
@@ -99,7 +99,7 @@ def client_ip(request: Request) -> str:
 
 @app.middleware("http")
 async def rate_limit(request: Request, call_next):  # type: ignore[no-untyped-def]
-    if request.url.path != "/health":
+    if not request.url.path.startswith("/health"):
         limiter, _ = _limiters(get_settings())
         if not limiter.allow(client_ip(request)):
             return JSONResponse({"detail": "Too many requests, slow down"}, status_code=429)
@@ -113,6 +113,22 @@ async def unhandled(request: Request, exc: Exception) -> JSONResponse:
     logger.exception("Unhandled error %s on %s %s", error_id, request.method, request.url.path)
     return JSONResponse({"detail": "Internal error", "error_id": error_id}, status_code=500)
 
+
+class ErrorBody(BaseModel):
+    detail: Any
+
+
+def _errors(*codes: int) -> dict[int | str, dict[str, Any]]:
+    """OpenAPI docs for error responses, so Swagger no longer labels them 'Undocumented'."""
+    text = {
+        401: "Missing or invalid X-Demo-Token / X-API-Key",
+        404: "Not found, or owned by another visitor",
+        409: "Conflict: already resolved, or schema drift",
+        422: "Invalid input or file rejected",
+        429: "Rate limit or quota reached",
+        503: "Dependency unavailable",
+    }
+    return {code: {"model": ErrorBody, "description": text[code]} for code in codes}
 
 # --- Dependencies -------------------------------------------------------------------------
 
@@ -162,8 +178,17 @@ def assert_owns(who: Principal, owner_session: uuid.UUID | None) -> None:
 def health() -> dict[str, str]:
     return {"status": "ok"}
 
+@app.get("/health/ready", responses=_errors(503))
+def ready(db: Annotated[Warehouse, Depends(warehouse)]) -> dict[str, str]:
+    """Readiness: the API can also reach PostgreSQL."""
+    try:
+        db.ping()
+    except Exception as exc:
+        logger.warning("Readiness check failed: %s", exc)
+        raise HTTPException(503, "Database unavailable") from exc
+    return {"status": "ready"}
 
-@app.post("/demo/sessions", status_code=201)
+@app.post("/demo/sessions", status_code=201, responses=_errors(404, 429))
 def create_demo_session(
     request: Request,
     settings: Annotated[Settings, Depends(get_settings)],
@@ -206,7 +231,7 @@ def _advisor_for(who: Principal, settings: Settings, db: Warehouse, calls: list[
     )
 
 
-@app.post("/sources/{source}/uploads", status_code=201)
+@app.post("/sources/{source}/uploads", status_code=201, responses=_errors(401, 409, 422, 429))
 def upload(
     source: Annotated[str, Path(pattern=SOURCE_PATTERN)],
     file: Annotated[UploadFile, File()],
@@ -214,6 +239,7 @@ def upload(
     settings: Annotated[Settings, Depends(get_settings)],
     db: Annotated[Warehouse, Depends(warehouse)],
     store: Annotated[BronzeStore, Depends(bronze)],
+    response : Response
 ) -> dict[str, Any]:
     limits = settings.admin_limits if who.is_admin else settings.demo_limits
     if source.lower().startswith(DEMO_TABLE_PREFIX):
@@ -228,6 +254,7 @@ def upload(
     batch_id, sha = batch_id_for(who.session_id, source, content)
     existing = db.get_batch(batch_id)
     if existing is not None:  # idempotent: same file, same source, same owner = same batch
+        response.status_code = 200
         return {"batch_id": str(batch_id), "already_ingested": True, "status": existing["status"]}
 
     if not who.is_admin and not db.claim_upload(who.session_id, settings.demo_max_uploads_per_session):
@@ -278,14 +305,14 @@ def upload(
     }
 
 
-@app.get("/batches")
+@app.get("/batches", responses = _errors(401))
 def list_batches(
     who: Annotated[Principal, Depends(principal)], db: Annotated[Warehouse, Depends(warehouse)]
 ) -> list[dict[str, Any]]:
     return db.list_batches(who.session_id, who.is_admin)
 
 
-@app.get("/batches/{batch_id}")
+@app.get("/batches/{batch_id}", responses = _errors(401,404))
 def get_batch(
     batch_id: uuid.UUID,
     who: Annotated[Principal, Depends(principal)],
@@ -298,7 +325,7 @@ def get_batch(
     return batch
 
 
-@app.get("/batches/{batch_id}/issues")
+@app.get("/batches/{batch_id}/issues",responses = _errors(401,404))
 def get_issues(
     batch_id: uuid.UUID,
     who: Annotated[Principal, Depends(principal)],
@@ -324,7 +351,7 @@ class Resolution(BaseModel):
     value: str | None = Field(default=None, max_length=2_000)
 
 
-@app.post("/issues/{issue_id}/resolve")
+@app.post("/issues/{issue_id}/resolve", responses = _errors(401,404,409,422))
 def resolve(
     issue_id: int,
     body: Resolution,

@@ -1,4 +1,5 @@
 # SmartIngest
+[![ci](https://github.com/Bovendiska/smartingest/actions/workflows/ci.yml/badge.svg)](https://github.com/Bovendiska/smartingest/actions/workflows/ci.yml)
 
 **Upload a messy Excel / CSV / JSON file, get a clean typed table.** SmartIngest infers each column's meaning, auto-fixes what is safe to fix, quarantines what is not, and asks Claude for suggestions on the hard cases. A human approves every non-trivial change.
 

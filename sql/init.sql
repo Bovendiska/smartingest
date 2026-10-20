@@ -22,9 +22,10 @@ CREATE TABLE IF NOT EXISTS meta.batches (
     source_name     text        NOT NULL,
     silver_table    text        NOT NULL,           -- demo data lives in its own per-visitor table
     filename        text        NOT NULL,
-    object_key      text        NOT NULL,           -- bronze location in MinIO
+    object_key      text        NOT NULL,           -- bronze file key (local volume or S3)
     file_sha256     char(64)    NOT NULL,
-    status          text        NOT NULL,           -- loaded | needs_review | schema_drift
+    status          text        NOT NULL,           -- loaded | needs_review
+    -- rows_quarantined and quality_score are kept current as rows leave quarantine
     rows_total      integer     NOT NULL,
     rows_clean      integer     NOT NULL,
     rows_auto_fixed integer     NOT NULL,

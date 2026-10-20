@@ -63,7 +63,10 @@ class Warehouse:
         return psycopg.connect(self._dsn, row_factory=dict_row, connect_timeout=5)
 
     # --- demo sessions -------------------------------------------------------------------
-
+    def ping(self) -> None:
+        with self.connect() as conn:
+            conn.execute("SELECT 1")
+    
     def create_demo_session(self, token_hash: str, ip_hash: str, ttl_hours: int) -> dict[str, Any]:
         with self.connect() as conn:
             return conn.execute(
@@ -253,6 +256,13 @@ class Warehouse:
                     (issue["batch_id"], issue["row_index"]),
                 )
             moved = self._try_promote(conn, issue["batch_id"], issue["row_index"])
+            if moved:  # keep the batch summary in step with quarantine.rows
+                conn.execute(
+                    "UPDATE meta.batches SET rows_quarantined = rows_quarantined - 1, "
+                    "quality_score = round(100.0 * (rows_total - rows_quarantined + 1) / nullif(rows_total, 0), 2) "
+                    "WHERE batch_id = %s AND rows_quarantined > 0",
+                    (issue["batch_id"],),
+                )
             remaining = conn.execute(
                 "SELECT count(*) AS n FROM meta.issues WHERE batch_id = %s AND status = 'open'", (issue["batch_id"],)
             ).fetchone()["n"]

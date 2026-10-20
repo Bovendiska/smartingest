@@ -87,7 +87,7 @@ def fix_email(value: str, ctx: ColumnContext) -> Finding | None:
             if ctx.top_email_domain:
                 return Finding(
                     "email_missing_domain", f"{local}@{ctx.top_email_domain}", Confidence.LOW,
-                    f"Domain kosong; '{ctx.top_email_domain}' adalah domain terbanyak di kolom ini",
+                    f"Domain kosong.'{ctx.top_email_domain}' adalah domain terbanyak di kolom ini",
                 )
             return Finding("email_missing_domain", None, Confidence.NONE, "Domain email kosong")
         if domain in KNOWN_DOMAIN_TYPOS:
