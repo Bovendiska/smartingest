@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: silver
+    description: Validated rows loaded by SmartIngest (admin uploads only; demo visitors have their own demo_* tables).
+    schema: silver
+    loaded_at_field: _loaded_at
+    freshness:  # check with: dbt source freshness
+      warn_after: {count: 36, period: hour}
+      error_after: {count: 72, period: hour}
+    tables:
+      - name: retailku_customers
+        description: Member registrations sent by RetailKu branches. A member can appear in several batches (updates).
+      - name: retailku_transactions
+        description: Point-of-sale lines. Late files can re-send a transaction already loaded.
+
+  - name: meta
+    description: SmartIngest bookkeeping. Kept current while humans review quarantine.
+    schema: meta
+    tables:
+      - name: batches
+      - name: issues
+
+  - name: quarantine
+    schema: quarantine
+    tables:
+      - name: rows
+        description: Rows waiting for a human decision, stored as jsonb.

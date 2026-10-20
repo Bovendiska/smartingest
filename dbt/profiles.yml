@@ -1,0 +1,14 @@
+# No secrets in this file: everything comes from environment variables set in docker-compose.yml.
+# Variables starting with DBT_ENV_SECRET_ are scrubbed from dbt's logs.
+smartingest:
+  target: prod
+  outputs:
+    prod:
+      type: postgres
+      host: "{{ env_var('DBT_HOST', 'postgres') }}"
+      port: 5432
+      user: "{{ env_var('DBT_USER', 'smartingest_dbt') }}"
+      password: "{{ env_var('DBT_ENV_SECRET_PASSWORD') }}"
+      dbname: "{{ env_var('DBT_DBNAME', 'smartingest') }}"
+      schema: gold
+      threads: 2

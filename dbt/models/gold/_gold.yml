@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: quality_by_source
+    description: Data quality per source, branch and business day.
+    data_tests:
+      - unique_combination: {columns: [source_name, branch_code, business_date]}
+    columns:
+      - name: quality_score
+        description: Share of rows that are in silver or decided (not waiting in quarantine), 0-100.
+        data_tests:
+          - not_null
+          - between: {min_value: 0, max_value: 100}
+
+  - name: issues_by_rule
+    description: Issue counts per rule and outcome.
+    data_tests:
+      - unique_combination: {columns: [source_name, branch_code, column_name, rule, confidence, detected_by]}
+    columns:
+      - name: confidence
+        data_tests:
+          - accepted_values: {values: [high, medium, low, none]}
+      - name: detected_by
+        data_tests:
+          - accepted_values: {values: [rule, llm]}
+
+  - name: sales_by_branch_month
+    description: Monthly sales per branch from validated transactions, with the quarantine backlog next to it.
+    data_tests:
+      - unique_combination: {columns: [branch_code, month]}
+    columns:
+      - name: branch_code
+        data_tests: [not_null]
+      - name: revenue
+        data_tests:
+          - between: {min_value: 0, max_value: 100000000000}
+
+  - name: customer_summary
+    description: Purchase behaviour and recency segment per member.
+    columns:
+      - name: customer_id
+        data_tests: [unique, not_null]
+      - name: segment
+        data_tests:
+          - accepted_values: {values: [no_purchase_yet, loyal, active, at_risk, dormant]}

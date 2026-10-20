@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: stg_retailku__customers
+    description: Latest version of each RetailKu member, without contact details.
+    columns:
+      - name: customer_id
+        data_tests: [unique, not_null]
+      - name: branch_code
+        data_tests: [not_null]
+
+  - name: stg_retailku__transactions
+    description: De-duplicated point-of-sale lines.
+    columns:
+      - name: transaction_id
+        data_tests: [unique, not_null]
+      - name: amount
+        data_tests:
+          - not_null
+          - between: {min_value: 0, max_value: 100000000}
+      - name: customer_id
+        description: Null for walk-in sales.
+        data_tests:
+          # A sale can point at a member who is still in quarantine (not in silver yet).
+          # That is expected while reviews are pending, so it warns instead of failing.
+          - relationships:
+              to: ref('stg_retailku__customers')
+              field: customer_id
+              config: {severity: warn}
+
+  - name: stg_meta__batches
+    columns:
+      - name: batch_id
+        data_tests: [unique, not_null]
+
+  - name: stg_batch_context
+    columns:
+      - name: batch_id
+        data_tests: [unique, not_null]
+      - name: branch_code
+        data_tests: [not_null]
